@@ -1,0 +1,37 @@
+Source: appstream-data-pop
+Section: misc
+Priority: optional
+Maintainer: Blake Kostner <blake@system76.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: appstream-data-pop
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: appstream,
+            appstream-data-pop-icons
+Description: AppStream data for Pop!_OS
+ This package contains metadata used by component-aware software
+ installers and software-centers (such as GNOME-Software, Apper and
+ KDE Discover) to display extended information.
+
+Package: appstream-data-pop-icons
+Architecture: all
+Depends: appstream-data-pop,
+         ${misc:Depends}
+Suggests: appstream-data-pop-icons-hidpi
+Description: Icons for AppStream data in Pop!_OS
+ This package contains metadata used by component-aware software
+ installers and software-centers (such as GNOME-Software, Apper and
+ KDE Discover) to display extended information about the software
+ available for Pantheon.
+
+Package: appstream-data-pop-icons-hidpi
+Architecture: all
+Depends: appstream-data-pop-icons,
+         ${misc:Depends}
+Description: HiDPI icons for AppStream data in Pop!_OS
+ This package contains metadata used by component-aware software
+ installers and software-centers (such as GNOME-Software, Apper and
+ KDE Discover) to display extended information about the software
+ available for Pantheon.

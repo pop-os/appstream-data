@@ -1,0 +1,5 @@
+appstream-data-pop (0.0.1) unreleased; urgency=medium
+
+  * Initial release for Pop!_OS
+
+ -- Blake Kostner <blake@system76.com>  Tue, 31 Oct 2017 14:35:13 +0800
