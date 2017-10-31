@@ -1,0 +1,44 @@
+Type: desktop-app
+ID: firefox.desktop
+Package: firefox
+Name:
+  C: Firefox
+Summary:
+  C: Mozilla Firefox web browser
+Description:
+  C: >-
+    <p>Bringing together all kinds of awesomeness to make browsing better for you. Get
+      to your favorite sites quickly ? even if you don?t remember the URLs. Type your
+      term into the location bar (aka the Awesome Bar) and the autocomplete function
+      will include possible matches from your browsing history, bookmarked sites and open
+      tabs.</p>
+ProjectLicense: MPL-1.1 OR GPL-2.0+ OR LGPL-2.1+
+Categories:
+ - Network
+ - WebBrowser
+Keywords:
+  C:
+  - Firefox
+  - Internet
+  - Browser
+Url:
+  homepage: http://www.mozilla.org/en-US/
+Icon:
+  cached:
+  - name: firefox.png
+    width: 64
+    height: 64
+  - name: firefox.png
+    width: 128
+    height: 128
+Provides:
+  mimetypes:
+   - application/vnd.mozilla.xul+xml
+   - application/xhtml+xml
+   - text/html
+   - text/mml
+   - text/xml
+   - x-scheme-handler/http
+   - x-scheme-handler/https
+  binaries:
+   - firefox
