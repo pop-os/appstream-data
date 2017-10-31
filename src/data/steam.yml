@@ -8,7 +8,8 @@ Summary:
 Description:
   C: >-
     <p>Steam is a software content delivery system developed by Valve software.
-      There is some free software available, but for the most part the content delivered is non-free.</p>
+      There is some free software available, but for the most part the content
+      delivered is non-free.</p>
 ProjectLicense: CC0-1.0
 Categories:
 - Game
