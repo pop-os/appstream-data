@@ -10,6 +10,7 @@ Description:
     <p>Thunderbird is a free email application that’s easy to set up and
       customize - and it’s loaded with great features!</p>
 ProjectLicense: MPL-1.1 OR GPL-2.0+ OR LGPL-2.1+
+DeveloperName: Mozilla Foundation
 Categories:
  - Network
 Keywords:
