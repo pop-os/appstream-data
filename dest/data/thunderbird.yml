@@ -4,7 +4,7 @@ Package: thunderbird
 Name:
   C: Thunderbird
 Summary:
-  C: Mozilla Thunderbird email client
+  C: Software made to make email easier
 Description:
   C: >-
     <p>Thunderbird is a free email application that’s easy to set up and
@@ -19,7 +19,7 @@ Keywords:
   - email
   - mail
 Url:
-  homepage: https://www.mozilla.org/en-US/thunderbird/
+  homepage: https://www.thunderbird.net/
 Icon:
   cached:
   - name: thunderbird.png
@@ -31,3 +31,7 @@ Icon:
 Provides:
   binaries:
    - thunderbird
+Custom:
+  x-appcenter-color-primary: '#eaeff2'
+  x-appcenter-color-primary-text: '#333'
+
