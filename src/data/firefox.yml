@@ -1,4 +1,4 @@
-Type: desktop-app
+Type: desktop-application
 ID: firefox.desktop
 Package: firefox
 Name:

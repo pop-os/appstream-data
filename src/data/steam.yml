@@ -1,5 +1,5 @@
 Type: desktop-application
-ID: steam.desktop
+ID: com.steampowered.steam.desktop
 Package: steam
 Name:
   C: Steam
