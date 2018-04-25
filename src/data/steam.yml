@@ -64,5 +64,7 @@ Provides:
   - x-scheme-handler/steam
   binaries:
   - steam
-
+Custom:
+  x-appcenter-color-primary: '#171a21'
+  x-appcenter-color-primary-text: '#fff'
 
