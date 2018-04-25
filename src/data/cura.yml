@@ -45,4 +45,7 @@ Icon:
 Provides:
   binaries:
   - cura
+Custom:
+  x-appcenter-color-primary: '#fff'
+  x-appcenter-color-primary-text: '#000'
 
