@@ -1,5 +1,6 @@
 Type: desktop-application
 ID: chromium-browser.desktop
+Package: chromium-browser
 Name:
   C: Chromium Web Browser
 Summary:
@@ -29,6 +30,15 @@ Icon:
   - name: chromium-browser.png
     width: 128
     height: 128
+Provides:
+  mimetypes:
+   - application/xhtml+xml
+   - text/html
+   - text/xml
+   - x-scheme-handler/http
+   - x-scheme-handler/https
+  binaries:
+   - chromium-browser
 Screenshots:
 - default: true
   caption: {}
@@ -36,3 +46,4 @@ Screenshots:
   source-image:
     url: https://www.gstatic.com/chrome/appstream/chrome-2.png
     lang: C
+
