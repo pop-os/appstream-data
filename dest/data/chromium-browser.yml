@@ -12,8 +12,16 @@ Description:
     <p>Chromium supports Vorbis, Theora, WebM and HTML5 audio and video standards, but does not include the non-free AAC, H.264, MP3 or Adobe Flash code that is found in Chrome.</p>
 DeveloperName:
   C: The Chromium Authors
-ProjectLicense: BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or
-  GPL-2.0 or LGPL-2.0)
+Categories:
+ - Network
+ - WebBrowser
+Keywords:
+  C:
+  - Chrome
+  - Internet
+  - Browser
+  - Web
+ProjectLicense: BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)
 Url:
   homepage: https://www.chromium.org/Home
   bugtracker: https://www.chromium.org/for-testers/bug-reporting-guidelines
