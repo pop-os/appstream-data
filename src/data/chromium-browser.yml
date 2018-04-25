@@ -21,6 +21,14 @@ Url:
   homepage: https://www.chromium.org/Home
   bugtracker: https://www.chromium.org/for-testers/bug-reporting-guidelines
   help: https://chromium.googlesource.com/chromium/src/+/master/docs/linux_debugging.md
+Icon:
+  cached:
+  - name: chromium-browser.png
+    width: 64
+    height: 64
+  - name: chromium-browser.png
+    width: 128
+    height: 128
 Screenshots:
 - default: true
   caption: {}
