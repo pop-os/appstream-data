@@ -26,10 +26,6 @@ Screenshots:
   source-image:
     url: https://signal.org/blog/images/signal-desktop-foucault.png
     lang: C
-- thumbnails: []
-  source-image:
-    url: https://signal.org/blog/images/signal-desktop-splash.png
-    lang: C
 Provides:
   binaries:
   - signal-desktop
@@ -77,6 +73,6 @@ Releases:
   type: stable
   unix-timestamp: 1509494400
 Custom:
-  x-appcenter-color-primary: '#2090ea'
-  x-appcenter-color-primary-text: '#fff'
+  x-appcenter-color-primary: '#e8f4fd'
+  x-appcenter-color-primary-text: '#333'
 

@@ -1,0 +1,46 @@
+Type: desktop-application
+ID: atom.desktop
+Package: atom
+Name:
+  C: Atom
+Summary:
+  C: A hackable text editor for the 21st Century
+Description:
+  C: >-
+    <p>Atom is a text editor that&apos;s modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.</p>
+DeveloperName:
+  C: Github
+ProjectLicense: MIT
+Categories:
+- Development
+- IDE
+Url:
+  homepage: https://atom.io
+Icon:
+  cached:
+  - name: atom.png
+    width: 64
+    height: 64
+  - name: atom.png
+    width: 128
+    height: 128
+Screenshots:
+- thumbnails: []
+  source-image:
+    url: https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/screenshot-main-04d5696e786a54803aa385acbc7c9ba3.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7c/Screenshot_of_Atom_editor.png
+    lang: C
+Releases:
+- version: 1.26.0
+  type: stable
+  unix-timestamp: 1524009600
+Provides:
+  binaries:
+  - atom
+Custom:
+  x-appcenter-color-primary: '#584b4f'
+  x-appcenter-color-primary-text: '#fff'
+
