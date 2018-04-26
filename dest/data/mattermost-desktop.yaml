@@ -1,5 +1,6 @@
 Type: desktop-application
 ID: mattermost-desktop.desktop
+Package: mattermost-desktop
 Name:
   C: Mattermost
 Summary:
