@@ -1,13 +1,10 @@
----
-File: DEP-11
-Version: '0.12'
----
 Type: desktop-application
-ID: com.spotify.Client.desktop
+ID: spotify.desktop
+Package: spotify-client
 Name:
   C: Spotify
 Summary:
-  C: Online music streaming service
+  C: Music for everyone
 Description:
   C: >-
     <p>Access all of your favorite music, discover new songs, and share music online with your friends - all in one place.</p>
@@ -72,6 +69,9 @@ Releases:
 - version: 1.0.64.407
   type: stable
   unix-timestamp: 1513123200
+Provides:
+  binaries:
+  - spotify
 Custom:
   x-appcenter-color-primary: '#000'
   x-appcenter-color-primary-text: '#fff'
