@@ -1,0 +1,45 @@
+Type: desktop-application
+ID: code.desktop
+Name:
+  C: Visual Studio Code
+Summary:
+  C: Code editing. Redefined.
+Description:
+  C: >-
+    <p><b>Meet IntelliSense.</b></p>
+    <p>Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+    <p><b>Print statement debugging is a thing of the past.</b></p>
+    <p>Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+    <p><b>Git commands built-in.</b></p>
+    <p>Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+    <p><b>Extensible and customizable.</b></p>
+    <p>Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.</p>
+DeveloperName:
+  C: Microsoft
+ProjectLicense: LicenseRef-proprietary=https://code.visualstudio.com/License
+Categories:
+- Development
+- IDE
+Url:
+  homepage: https://code.visualstudio.com/
+  help: https://support.microsoft.com/en-us/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16064&ccsid=636196895839595242
+Icon:
+  cached:
+  - name: atom.png
+    width: 64
+    height: 64
+  - name: atom.png
+    width: 128
+    height: 128
+Screenshots:
+- thumbnails: []
+  source-image:
+    url: https://code.visualstudio.com/assets/home/home-screenshot-linux-lg.png
+    lang: C
+Provides:
+  binaries:
+  - code
+Custom:
+  x-appcenter-color-primary: '#373277'
+  x-appcenter-color-primary-text: '#fff'
+
