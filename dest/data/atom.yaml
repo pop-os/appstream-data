@@ -11,6 +11,9 @@ Description:
 DeveloperName:
   C: Github
 ProjectLicense: MIT
+Categories:
+- Development
+- IDE
 Url:
   homepage: https://atom.io
 Icon:
