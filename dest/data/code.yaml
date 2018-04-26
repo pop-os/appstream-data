@@ -25,10 +25,10 @@ Url:
   help: https://support.microsoft.com/en-us/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16064&ccsid=636196895839595242
 Icon:
   cached:
-  - name: atom.png
+  - name: code.png
     width: 64
     height: 64
-  - name: atom.png
+  - name: code.png
     width: 128
     height: 128
 Screenshots:
