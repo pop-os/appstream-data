@@ -1,5 +1,6 @@
 Type: desktop-application
 ID: slack.desktop
+Package: slack-desktop
 Name:
   C: Slack
 Summary:
@@ -37,7 +38,7 @@ Screenshots:
     lang: C
 Provides:
   binaries:
-  - slack
+  - slack-desktop
 Releases:
 - version: 3.1.1
   type: stable
