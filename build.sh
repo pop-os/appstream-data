@@ -29,7 +29,7 @@ touch "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 } > "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 
 # Iterate all the files
-for file in $(find "$FOLD/src" -type f -name "*.yml"); do
+for file in $(find "$FOLD/src" -type f -name "*.yml" -o -name "*.yaml"); do
     echo "---" >> "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
     cat "$file" >> "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 done
