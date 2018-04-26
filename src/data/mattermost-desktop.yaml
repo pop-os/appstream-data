@@ -1,0 +1,39 @@
+Type: desktop-application
+ID: mattermost-desktop.desktop
+Name:
+  C: Mattermost
+Summary:
+  C: Open source, private cloud Slack-alternative
+Description:
+  C: >-
+    <p>Mattermost is secure workplace messaging from behind your firewall.</p>
+    <ul>
+      <li>Discuss topics in private groups, one-to-one or team-wide</li>
+      <li>Easily share and view image files</li>
+      <li>Connect in-house systems with webhooks and Slack-compatible integrations</li>
+    </ul>
+    <p>To use this app, you need a URL for a Mattermost server.</p>
+DeveloperName:
+  C: Mattermost, Inc.
+ProjectLicense: Apache-2.0
+Categories:
+- InstantMessaging
+- Network
+Url:
+  homepage: https://about.mattermost.com/
+  bugtracker: https://github.com/mattermost/desktop/issues
+Icon:
+  cached:
+  - name: mattermost-desktop.png
+    width: 64
+    height: 64
+  - name: mattermost-desktop.png
+    width: 128
+    height: 128
+Provides:
+  binaries:
+  - mattermost-desktop
+Custom:
+  x-appcenter-color-primary: '#092e60'
+  x-appcenter-color-primary-text: '#fff'
+

@@ -30,6 +30,9 @@ Screenshots:
   source-image:
     url: https://signal.org/blog/images/signal-desktop-splash.png
     lang: C
+Provides:
+  binaries:
+  - signal-desktop
 Releases:
 - version: 1.7.1
   type: stable
