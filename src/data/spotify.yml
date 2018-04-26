@@ -1,0 +1,78 @@
+---
+File: DEP-11
+Version: '0.12'
+---
+Type: desktop-application
+ID: com.spotify.Client.desktop
+Name:
+  C: Spotify
+Summary:
+  C: Online music streaming service
+Description:
+  C: >-
+    <p>Access all of your favorite music, discover new songs, and share music online with your friends - all in one place.</p>
+    <p>Create shared playlists or share individual songs with your Facebook friends with just a click of a button.</p>
+    <p>Follow your favorite artists or friends to know what they are listening to, and then save the songs to your own playlists.</p>
+    <p>Spotify is the best way to have access to millions of songs, and all the latest hits.</p>
+DeveloperName:
+  C: Spotify
+ProjectLicense: LicenseRef-proprietary=https://www.spotify.com/us/legal/end-user-agreement/
+Categories:
+- Audio
+- AudioVideo
+- Music
+- Player
+Url:
+  homepage: https://www.spotify.com
+  help: https://community.spotify.com/t5/Desktop-Linux/bd-p/desktop_linux?_ga=2.79698143.991098057.1524707082-481724734.1524262755
+Icon:
+  remote:
+  - url: https://lh3.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w128
+    width: 128
+    height: 128
+  - url: https://lh3.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w64
+    width: 64
+    height: 64
+Screenshots:
+- default: true
+  caption:
+    C: The main Spotify window
+  thumbnails: []
+  source-image:
+    url: https://negativo17.org/appstream/spotify-0.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Artist detail
+  thumbnails: []
+  source-image:
+    url: https://negativo17.org/appstream/spotify-1.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Genre based radio
+  thumbnails: []
+  source-image:
+    url: https://negativo17.org/appstream/spotify-2.png
+    width: 1280
+    height: 720
+    lang: C
+Releases:
+- version: 1.0.77.338
+  type: stable
+  unix-timestamp: 1520812800
+- version: 1.0.72.117
+  type: stable
+  unix-timestamp: 1519689600
+- version: 1.0.69.336
+  type: stable
+  unix-timestamp: 1513728000
+- version: 1.0.64.407
+  type: stable
+  unix-timestamp: 1513123200
+Custom:
+  x-appcenter-color-primary: '#000'
+  x-appcenter-color-primary-text: '#fff'
+
