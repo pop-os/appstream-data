@@ -1,29 +1,34 @@
----
-File: DEP-11
-Version: '0.12'
----
 Type: desktop-application
-ID: org.signal.Signal.desktop
+ID: signal-desktop.desktop
+Package: signal-desktop
 Name:
   C: Signal
 Summary:
   C: Private messenger for the desktop
 Description:
-  C: "<p>Signal is a Free and Open Source instant messenger allowing you to communicate\n    with complete privacy. The messages
-    are end-to-end encrypted and the server \n      does not store any of your data.</p>"
+  C: "<p>Signal is a Free and Open Source instant messenger allowing you to communicate with complete privacy. The messages are end-to-end encrypted and the server does not store any of your data.</p>"
 DeveloperName:
   C: Whisper Systems
 ProjectLicense: GPL-3.0
 Url:
   homepage: https://signal.org/
+Icon:
+  cached:
+  - name: signal-desktop.png
+    width: 64
+    height: 64
+  - name: signal-desktop.png
+    width: 128
+    height: 128
 Screenshots:
-- thumbnails: []
+- default: true
+  thumbnails: []
   source-image:
-    url: https://signal.org/blog/images/signal-desktop-splash.png
+    url: https://signal.org/blog/images/signal-desktop-foucault.png
     lang: C
 - thumbnails: []
   source-image:
-    url: https://signal.org/blog/images/signal-desktop-foucault.png
+    url: https://signal.org/blog/images/signal-desktop-splash.png
     lang: C
 Releases:
 - version: 1.7.1
@@ -68,3 +73,7 @@ Releases:
 - version: 1.0.35
   type: stable
   unix-timestamp: 1509494400
+Custom:
+  x-appcenter-color-primary: '#2090ea'
+  x-appcenter-color-primary-text: '#fff'
+
