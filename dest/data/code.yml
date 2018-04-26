@@ -1,5 +1,6 @@
 Type: desktop-application
 ID: code.desktop
+Package: code
 Name:
   C: Visual Studio Code
 Summary:
