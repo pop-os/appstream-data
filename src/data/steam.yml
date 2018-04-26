@@ -1,6 +1,6 @@
 Type: desktop-application
 ID: com.steampowered.steam.desktop
-Package: steam
+Package: steam-installer
 Name:
   C: Steam
 Summary:
