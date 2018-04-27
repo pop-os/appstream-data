@@ -1,5 +1,6 @@
 Type: desktop-application
 ID: com.uploadedlobster.peek.desktop
+Package: peek
 Name:
   C: Peek
 Summary:
