@@ -1,15 +1,17 @@
-Type: desktop-app
+Type: desktop-application
 ID: thunderbird.desktop
 Package: thunderbird
 Name:
   C: Thunderbird
 Summary:
-  C: Mozilla Thunderbird email client
+  C: Software made to make email easier
 Description:
   C: >-
     <p>Thunderbird is a free email application that’s easy to set up and
       customize - and it’s loaded with great features!</p>
 ProjectLicense: MPL-1.1 OR GPL-2.0+ OR LGPL-2.1+
+DeveloperName:
+  C: Mozilla Foundation
 Categories:
  - Network
 Keywords:
@@ -17,7 +19,7 @@ Keywords:
   - email
   - mail
 Url:
-  homepage: https://www.mozilla.org/en-US/thunderbird/
+  homepage: https://www.thunderbird.net/
 Icon:
   cached:
   - name: thunderbird.png
@@ -29,3 +31,7 @@ Icon:
 Provides:
   binaries:
    - thunderbird
+Custom:
+  x-appcenter-color-primary: '#eaeff2'
+  x-appcenter-color-primary-text: '#333'
+

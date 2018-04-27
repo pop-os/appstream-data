@@ -1,25 +1,56 @@
 Type: desktop-application
 ID: com.steampowered.steam.desktop
-Package: steam
+Package: steam-installer
 Name:
   C: Steam
 Summary:
-  C: Valve's Steam digital software delivery system
+  C: Manage and play games distributed by Steam
 Description:
   C: >-
-    <p>Steam is a software content delivery system developed by Valve software.
-      There is some free software available, but for the most part the content
-      delivered is non-free.</p>
-ProjectLicense: CC0-1.0
-DeveloperName: Valve Corporation
+    <p>Steam is a popular platform for buying, downloading, and playing video games, and chatting with other players.</p>
+
+    <p>Many games require an online purchase, but some popular games, such as Team Fortress 2, are free to play. When searching
+    in the store, be sure to narrow results by the Linux / SteamOS operating system. Not all Linux games are compatible with
+    your system, so make sure you check the requirements before purchasing games.</p>
+ProjectLicense: LicenseRef-proprietary
+DeveloperName:
+  C: Valve Corporation
 Categories:
 - Game
+- PackageManager
 Keywords:
   C:
   - Steam
   - Games
 Url:
-  homepage: http://www.steampowered.com
+  homepage: https://store.steampowered.com/
+  help: https://help.steampowered.com/
+Screenshots:
+- default: true
+  caption:
+    C: The main Steam library window
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-0.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Steam Store interface
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-1.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Steam community
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-2.png
+    width: 1280
+    height: 720
+    lang: C
 Icon:
   cached:
   - name: steam.png
@@ -33,3 +64,7 @@ Provides:
   - x-scheme-handler/steam
   binaries:
   - steam
+Custom:
+  x-appcenter-color-primary: '#171a21'
+  x-appcenter-color-primary-text: '#fff'
+

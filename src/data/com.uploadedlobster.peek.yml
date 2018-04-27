@@ -1,0 +1,138 @@
+Type: desktop-application
+ID: com.uploadedlobster.peek.desktop
+Package: peek
+Name:
+  C: Peek
+Summary:
+  C: Simple screen recorder with an easy to use interface
+Description:
+  C: >-
+    <p>Peek makes it easy to create short screencasts of a screen area. It was built for the specific use case of recording screen areas, e.g. for easily showing UI features of your own apps or for showing a bug in bug reports. With Peek you simply place the Peek window over the area you want to record and press &quot;Record&quot;. Peek is optimized for generating animated GIFs, but you can also directly record to WebM or MP4 if you prefer.</p>
+    <p>Features:</p>
+    <ul>
+      <li>Select a screen region to record</li>
+      <li>Save recorded video as an optimized animated GIF</li>
+      <li>Record directly to WebM or MP4 format</li>
+      <li>Simple user interface optimized for the task</li>
+      <li>Automatically downscale recorded videos</li>
+      <li>Support for HiDPI screens</li>
+      <li>Works inside a GNOME Shell Wayland session (using XWayland)</li>
+    </ul>
+    <p>Peek is not a general purpose screencast app with extended features but rather focuses on the single task of creating small, silent screencasts of an area of the screen for creating GIF animations or silent WebM or MP4 videos.</p>
+DeveloperName:
+  C: Philipp Wolfer
+ProjectLicense: GPL-3.0+
+Categories:
+- Graphics
+- Utility
+- GNOME
+- GTK
+Url:
+  homepage: http://peek.uploadedlobster.com
+  faq: https://github.com/phw/peek#frequently-asked-questions
+  bugtracker: https://github.com/phw/peek/issues
+Icon:
+  cached:
+  - name: com.uploadedlobster.peek.png
+    width: 64
+    height: 64
+  - name: com.uploadedlobster.peek.png
+    width: 128
+    height: 128
+Provides:
+  binaries:
+  - peek
+Screenshots:
+- default: true
+  caption:
+    C: The main window to select the recording area
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/phw/peek/master/data/screenshots/peek-main-window.png
+    lang: C
+- caption:
+    C: Peek's preferences dialog
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/phw/peek/master/data/screenshots/peek-preferences.png
+    lang: C
+- caption:
+    C: Peek is recording itself
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/phw/peek/master/data/screenshots/peek-recording-itself.gif
+    lang: C
+Releases:
+- version: 1.3.1
+  type: stable
+  unix-timestamp: 1522281600
+- version: 1.3.0
+  type: stable
+  unix-timestamp: 1521936000
+- version: 1.2.2
+  type: stable
+  unix-timestamp: 1517097600
+- version: 1.2.1
+  type: stable
+  unix-timestamp: 1512259200
+- version: 1.2.0
+  type: stable
+  unix-timestamp: 1511568000
+- version: 1.1.0
+  type: stable
+  unix-timestamp: 1507161600
+- version: 1.0.3
+  type: stable
+  unix-timestamp: 1497312000
+- version: 1.0.2
+  type: stable
+  unix-timestamp: 1497312000
+- version: 1.0.1
+  type: stable
+  unix-timestamp: 1490486400
+- version: 1.0.0
+  type: stable
+  unix-timestamp: 1489190400
+- version: 0.9.1
+  type: stable
+  unix-timestamp: 1487635200
+- version: 0.9.0
+  type: stable
+  unix-timestamp: 1487548800
+- version: 0.8.0
+  type: stable
+  unix-timestamp: 1477353600
+- version: 0.7.2
+  type: stable
+  unix-timestamp: 1467849600
+- version: 0.7.1
+  type: stable
+  unix-timestamp: 1456617600
+- version: 0.7.0
+  type: stable
+  unix-timestamp: 1456444800
+- version: 0.6.0
+  type: stable
+  unix-timestamp: 1453939200
+- version: 0.5.0
+  type: stable
+  unix-timestamp: 1452297600
+- version: 0.4.0
+  type: stable
+  unix-timestamp: 1452211200
+- version: 0.3.0
+  type: stable
+  unix-timestamp: 1452211200
+- version: 0.2.1
+  type: stable
+  unix-timestamp: 1452124800
+- version: 0.2.0
+  type: stable
+  unix-timestamp: 1452124800
+- version: 0.1.0
+  type: stable
+  unix-timestamp: 1451952000
+Custom:
+  x-appcenter-color-primary: '#eee'
+  x-appcenter-color-primary-text: '#f57900'
+
