@@ -1,0 +1,41 @@
+Type: desktop-application
+ID: popsicle.desktop
+Package: popsicle-gtk
+Name:
+  C: Popsicle
+Summary:
+  C: GTK3 application for flashing multiple USB devices in parallel
+Description:
+  C: >-
+    <p>Popsicle is a GTK3 utility for flashing multiple USB devices in parallel.</p>
+DeveloperName:
+  C: System76
+ProjectLicense: MIT
+Categories:
+  - System
+Keywords:
+  - USB
+  - Flash
+  - Drive
+  - Popsicle
+Url:
+  homepage: https://github.com/pop-os/popsicle
+Icon:
+  cached:
+    - name: popsicle.png
+      width: 64
+      height: 64
+    - name: popsicle.png
+      width: 128
+      height: 128
+Screenshots:
+  - thumbnails: []
+    source-image:
+    url: https://raw.githubusercontent.com/pop-os/popsicle/master/demo.gif
+    lang: C
+Provides:
+  mimetypes:
+    - application/x-cd-image
+    - application/x-raw-disk-image
+  binaries:
+    - popsicle-gtk
