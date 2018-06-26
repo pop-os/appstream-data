@@ -4,17 +4,10 @@ Package: popsicle-gtk
 Name:
   C: Popsicle
 Summary:
-  C: Flash multiple USB devices in parallel
+  C: GTK3 application for flashing multiple USB devices in parallel
 Description:
   C: >-
-    <p>Write an ISO or other image to multiple USB devices all at once. Easily preparing a bunch of flash drives of your favorite OS with just a couple of clicks.</p>
-    <ul>
-      <li>Supports USB 2 and 3 devices</li>
-      <li>Use USB hubs for massively parallel writing</li>
-      <li>Verify your image with the SHA256 or MD5 checksum</li>
-      <li>Check the progress, speed, and success of each device while flashing</li>
-      <li>Open ISO or IMG files from the app, or straight from your file manager</li>
-    <ul>
+    <p>Popsicle is a GTK3 utility for flashing multiple USB devices in parallel.</p>
 DeveloperName:
   C: System76
 ProjectLicense: MIT
