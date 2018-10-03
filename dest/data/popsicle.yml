@@ -38,12 +38,27 @@ Icon:
 Screenshots:
   - thumbnails: []
     source-image:
-    url: https://raw.githubusercontent.com/pop-os/popsicle/master/demo.gif
-    lang: C
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-01.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-02.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-03.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-04.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-05.png
+      lang: C
 Provides:
   mimetypes:
     - application/x-cd-image
     - application/x-raw-disk-image
   binaries:
     - popsicle-gtk
-
