@@ -14,7 +14,7 @@ Description:
       <li>Verify your image with the SHA256 or MD5 checksum</li>
       <li>Check the progress, speed, and success of each device while flashing</li>
       <li>Open ISO or IMG files from the app, or straight from your file manager</li>
-    <ul>
+    </ul>
 DeveloperName:
   C: System76
 ProjectLicense: MIT
@@ -27,6 +27,7 @@ Keywords:
   - Popsicle
 Url:
   homepage: https://github.com/pop-os/popsicle
+  help: https://github.com/pop-os/popsicle/issues
 Icon:
   cached:
     - name: popsicle.png
