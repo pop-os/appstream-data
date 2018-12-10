@@ -27,7 +27,7 @@ Keywords:
   - Popsicle
 Url:
   homepage: https://github.com/pop-os/popsicle
-  help: https://github.com/pop-os/popsicle/issues
+  bugtracker: https://github.com/pop-os/popsicle/issues
 Icon:
   cached:
     - name: popsicle.png
