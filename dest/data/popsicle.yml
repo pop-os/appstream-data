@@ -1,0 +1,65 @@
+Type: desktop-application
+ID: popsicle.desktop
+Package: popsicle-gtk
+Name:
+  C: Popsicle
+Summary:
+  C: Flash multiple USB devices in parallel
+Description:
+  C: >-
+    <p>Write an ISO or other image to multiple USB devices all at once. Easily preparing a bunch of flash drives of your favorite OS with just a couple of clicks.</p>
+    <ul>
+      <li>Supports USB 2 and 3 devices</li>
+      <li>Use USB hubs for massively parallel writing</li>
+      <li>Verify your image with the SHA256 or MD5 checksum</li>
+      <li>Check the progress, speed, and success of each device while flashing</li>
+      <li>Open ISO or IMG files from the app, or straight from your file manager</li>
+    </ul>
+DeveloperName:
+  C: System76
+ProjectLicense: MIT
+Categories:
+  - System
+Keywords:
+  - USB
+  - Flash
+  - Drive
+  - Popsicle
+Url:
+  homepage: https://github.com/pop-os/popsicle
+  bugtracker: https://github.com/pop-os/popsicle/issues
+Icon:
+  cached:
+    - name: popsicle.png
+      width: 64
+      height: 64
+    - name: popsicle.png
+      width: 128
+      height: 128
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-01.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-02.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-03.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-04.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-05.png
+      lang: C
+Provides:
+  mimetypes:
+    - application/x-cd-image
+    - application/x-raw-disk-image
+  binaries:
+    - popsicle-gtk
