@@ -1,7 +1,22 @@
 # appstream-data
+
 Additional appstream data for Pop!_OS
 
 ### Building
-Simply run the `build.sh` script to create a `dest` folder.
 
-Debian packaging is as simple as changing the user info and running `debuild`.
+Execute the `build.sh` script to re-generate the `dest` folder.
+
+Once built, Debian packaging may be created with the `debuild` command.
+
+Use `dch` to update the debian/changelog.
+
+### Testing
+
+Execute these commands to test any changes:
+
+```sh
+killall io.elementary.appcenter
+yes | bash build.sh
+debuild
+sudo dpkg -i ../appstream-data*.deb
+ ```
