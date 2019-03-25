@@ -34,6 +34,7 @@ Keywords:
   - Emulators
   - Games
   - Lutris
+  - Steam
   - Wine
 Url:
   homepage: https://lutris.net
@@ -49,8 +50,6 @@ Screenshots:
   thumbnails: []
   source-image:
     url: https://lutris.net/static/images/screenshots/main-window.png
-    width: 1145
-    height: 595
     lang: C
 Icon:
   cached:

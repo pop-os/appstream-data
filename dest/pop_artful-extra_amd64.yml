@@ -1,0 +1,1070 @@
+---
+File: DEP-11
+Version: '0.8'
+Origin: pop-artful-extra
+File: DEP-11
+Priority: 66
+Time: 20190325T191704
+---
+Type: desktop-application
+ID: cura.desktop
+Package: cura
+Name:
+  C: Ultimaker Cura
+Summary:
+  C: The world’s most advanced 3D printer software
+Description:
+  C: >-
+    <p>Ultimaker Cura prepares your model for 3D printing. For novices, it makes it easy to get great results. For experts, there are over 200 settings to adjust to your needs. And integration with major software platforms makes 3D printing even simpler.</p>
+    <p>Ultimaker Cura creates a seamless integration between your 3D printer, software and materials to achieve the perfect print.</p>
+
+    <ul>
+      <li>Novices can start printing right away and experts are able to customize 200 settings to achieve the best results for their models</li>
+      <li>Optimized profiles for Ultimaker materials</li>
+      <li>Print multiple objects at once with different settings for each object</li>
+      <li>Download plugins to create seamless integration with leading design and engineering software</li>
+      <li>Supports STL, 3MF and OBJ file formats</li>
+      <li>It’s open source and completely free</li>
+    </ul>
+ProjectLicense: LGPL-3.0+
+DeveloperName:
+  C: Ultimaker
+Categories:
+- Graphics
+- Education
+- Development
+- Science
+Keywords:
+  C:
+  - Cura
+  - 3D Printing
+  - Modeling
+Url:
+  homepage: https://ultimaker.com/en/products/ultimaker-cura-software
+  help: https://community.ultimaker.com/forum/107-ultimaker-software/
+Icon:
+  cached:
+  - name: cura.png
+    width: 64
+    height: 64
+  - name: cura.png
+    width: 128
+    height: 128
+Provides:
+  binaries:
+  - cura
+Custom:
+  x-appcenter-color-primary: '#eef0f0'
+  x-appcenter-color-primary-text: '#000'
+
+---
+Type: desktop-application
+ID: popsicle.desktop
+Package: popsicle-gtk
+Name:
+  C: Popsicle
+Summary:
+  C: Flash multiple USB devices in parallel
+Description:
+  C: >-
+    <p>Write an ISO or other image to multiple USB devices all at once. Easily preparing a bunch of flash drives of your favorite OS with just a couple of clicks.</p>
+    <ul>
+      <li>Supports USB 2 and 3 devices</li>
+      <li>Use USB hubs for massively parallel writing</li>
+      <li>Verify your image with the SHA256 or MD5 checksum</li>
+      <li>Check the progress, speed, and success of each device while flashing</li>
+      <li>Open ISO or IMG files from the app, or straight from your file manager</li>
+    </ul>
+DeveloperName:
+  C: System76
+ProjectLicense: MIT
+Categories:
+  - System
+Keywords:
+  - USB
+  - Flash
+  - Drive
+  - Popsicle
+Url:
+  homepage: https://github.com/pop-os/popsicle
+  bugtracker: https://github.com/pop-os/popsicle/issues
+Icon:
+  cached:
+    - name: popsicle.png
+      width: 64
+      height: 64
+    - name: popsicle.png
+      width: 128
+      height: 128
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-01.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-02.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-03.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-04.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/popsicle/master/screenshots/screenshot-05.png
+      lang: C
+Provides:
+  mimetypes:
+    - application/x-cd-image
+    - application/x-raw-disk-image
+  binaries:
+    - popsicle-gtk
+---
+Type: desktop-application
+ID: com.steampowered.steam.desktop
+Package: steam-installer
+Name:
+  C: Steam
+Summary:
+  C: Manage and play games distributed by Steam
+Description:
+  C: >-
+    <p>Steam is a popular platform for buying, downloading, and playing video games, and chatting with other players.</p>
+
+    <p>Many games require an online purchase, but some popular games, such as Team Fortress 2, are free to play. When searching
+    in the store, be sure to narrow results by the Linux / SteamOS operating system. Not all Linux games are compatible with
+    your system, so make sure you check the requirements before purchasing games.</p>
+ProjectLicense: LicenseRef-proprietary
+DeveloperName:
+  C: Valve Corporation
+Categories:
+- Game
+- PackageManager
+Keywords:
+  C:
+  - Steam
+  - Games
+Url:
+  homepage: https://store.steampowered.com/
+  help: https://help.steampowered.com/
+Screenshots:
+- default: true
+  caption:
+    C: The main Steam library window
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-0.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Steam Store interface
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-1.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Steam community
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-2.png
+    width: 1280
+    height: 720
+    lang: C
+Icon:
+  cached:
+  - name: steam.png
+    width: 64
+    height: 64
+  - name: steam.png
+    width: 128
+    height: 128
+Provides:
+  mimetypes:
+  - x-scheme-handler/steam
+  binaries:
+  - steam
+Custom:
+  x-appcenter-color-primary: '#171a21'
+  x-appcenter-color-primary-text: '#fff'
+
+---
+Type: desktop-application
+ID: mattermost-desktop.desktop
+Package: mattermost-desktop
+Name:
+  C: Mattermost
+Summary:
+  C: Open source, private cloud Slack-alternative
+Description:
+  C: >-
+    <p>Mattermost is secure workplace messaging from behind your firewall.</p>
+    <ul>
+      <li>Discuss topics in private groups, one-to-one or team-wide</li>
+      <li>Easily share and view image files</li>
+      <li>Connect in-house systems with webhooks and Slack-compatible integrations</li>
+    </ul>
+    <p>To use this app, you need a URL for a Mattermost server.</p>
+DeveloperName:
+  C: Mattermost, Inc.
+ProjectLicense: Apache-2.0
+Categories:
+- InstantMessaging
+- Network
+Url:
+  homepage: https://about.mattermost.com/
+  bugtracker: https://github.com/mattermost/desktop/issues
+Icon:
+  cached:
+  - name: mattermost-desktop.png
+    width: 64
+    height: 64
+  - name: mattermost-desktop.png
+    width: 128
+    height: 128
+Provides:
+  binaries:
+  - mattermost-desktop
+Custom:
+  x-appcenter-color-primary: '#092e60'
+  x-appcenter-color-primary-text: '#fff'
+
+---
+Type: desktop-application
+ID: thunderbird.desktop
+Package: thunderbird
+Name:
+  C: Thunderbird
+Summary:
+  C: Software made to make email easier
+Description:
+  C: >-
+    <p>Thunderbird is a free email application that’s easy to set up and
+      customize - and it’s loaded with great features!</p>
+ProjectLicense: MPL-1.1 OR GPL-2.0+ OR LGPL-2.1+
+DeveloperName:
+  C: Mozilla Foundation
+Categories:
+ - Network
+Keywords:
+  C:
+  - email
+  - mail
+Url:
+  homepage: https://www.thunderbird.net/
+Icon:
+  cached:
+  - name: thunderbird.png
+    width: 64
+    height: 64
+  - name: thunderbird.png
+    width: 128
+    height: 128
+Provides:
+  binaries:
+   - thunderbird
+Custom:
+  x-appcenter-color-primary: '#eaeff2'
+  x-appcenter-color-primary-text: '#333'
+
+---
+Type: desktop-application
+ID: code.desktop
+Package: code
+Name:
+  C: Visual Studio Code
+Summary:
+  C: Code editing. Redefined.
+Description:
+  C: >-
+    <p><b>Meet IntelliSense.</b></p>
+    <p>Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+    <p><b>Print statement debugging is a thing of the past.</b></p>
+    <p>Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+    <p><b>Git commands built-in.</b></p>
+    <p>Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+    <p><b>Extensible and customizable.</b></p>
+    <p>Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.</p>
+DeveloperName:
+  C: Microsoft
+ProjectLicense: LicenseRef-proprietary=https://code.visualstudio.com/License
+Categories:
+- Development
+- IDE
+Url:
+  homepage: https://code.visualstudio.com/
+  help: https://support.microsoft.com/en-us/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16064&ccsid=636196895839595242
+Icon:
+  cached:
+  - name: code.png
+    width: 64
+    height: 64
+  - name: code.png
+    width: 128
+    height: 128
+Screenshots:
+- thumbnails: []
+  source-image:
+    url: https://code.visualstudio.com/assets/home/home-screenshot-linux-lg.png
+    lang: C
+Provides:
+  binaries:
+  - code
+Custom:
+  x-appcenter-color-primary: '#373277'
+  x-appcenter-color-primary-text: '#fff'
+
+---
+Type: desktop-application
+ID: spotify.desktop
+Package: spotify-client
+Name:
+  C: Spotify
+Summary:
+  C: Music for everyone
+Description:
+  C: >-
+    <p>Access all of your favorite music, discover new songs, and share music online with your friends - all in one place.</p>
+    <p>Create shared playlists or share individual songs with your Facebook friends with just a click of a button.</p>
+    <p>Follow your favorite artists or friends to know what they are listening to, and then save the songs to your own playlists.</p>
+    <p>Spotify is the best way to have access to millions of songs, and all the latest hits.</p>
+DeveloperName:
+  C: Spotify
+ProjectLicense: LicenseRef-proprietary=https://www.spotify.com/us/legal/end-user-agreement/
+Categories:
+- Audio
+- AudioVideo
+- Music
+- Player
+Url:
+  homepage: https://www.spotify.com
+  help: https://community.spotify.com/t5/Desktop-Linux/bd-p/desktop_linux?_ga=2.79698143.991098057.1524707082-481724734.1524262755
+Icon:
+  remote:
+  - url: https://lh3.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w128
+    width: 128
+    height: 128
+  - url: https://lh3.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w64
+    width: 64
+    height: 64
+Screenshots:
+- default: true
+  caption:
+    C: The main Spotify window
+  thumbnails: []
+  source-image:
+    url: https://negativo17.org/appstream/spotify-0.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Artist detail
+  thumbnails: []
+  source-image:
+    url: https://negativo17.org/appstream/spotify-1.png
+    width: 1280
+    height: 720
+    lang: C
+- caption:
+    C: Genre based radio
+  thumbnails: []
+  source-image:
+    url: https://negativo17.org/appstream/spotify-2.png
+    width: 1280
+    height: 720
+    lang: C
+Releases:
+- version: 1.0.77.338
+  type: stable
+  unix-timestamp: 1520812800
+- version: 1.0.72.117
+  type: stable
+  unix-timestamp: 1519689600
+- version: 1.0.69.336
+  type: stable
+  unix-timestamp: 1513728000
+- version: 1.0.64.407
+  type: stable
+  unix-timestamp: 1513123200
+Provides:
+  binaries:
+  - spotify
+Custom:
+  x-appcenter-color-primary: '#000'
+  x-appcenter-color-primary-text: '#fff'
+
+---
+
+ID: net.lutris.Lutris
+Package: lutris
+Type: desktop-application
+Name:
+  C: Lutris
+Summary:
+  C: Lutris is an open source gaming platform
+Description:
+  C: >-
+    <p>Lutris helps you install and manage your games in a unified interface. Our goal is to support every game which runs on Linux, from native
+    to Windows games (via Wine) to emulators and browser games. The desktop application and the website are libre software, your contributions
+    are welcome!</p>
+  es: >-
+    <p>Lutris membantu Anda memasang dan mengelola permainan Anda dalam antarmuka terpadu. Tujuan kami adalah untuk mendukung setiap permainan
+    yang berjalan di Linux, dari permainan native ke Windows (melalui Wine) ke emulator dan peramban permainan. Aplikasi destop dan situs web
+    adalah perangkat lunak libre, kontribusi Anda diterima!</p>
+  id: >-
+    <p>Lutris membantu Anda memasang dan mengelola permainan Anda dalam antarmuka terpadu. Tujuan kami adalah untuk mendukung setiap permainan
+    yang berjalan di Linux, dari permainan native ke Windows (melalui Wine) ke emulator dan peramban permainan. Aplikasi destop dan situs web
+    adalah perangkat lunak libre, kontribusi Anda diterima!</p>
+  pt_BR: >-
+    <p>Lutris ajuda você a instalar e gerenciar seus jogos em uma interface unificada. Nosso objetivo é suportar todos os jogos que rodam no Linux,
+    desde jogos nativos até Windows (via Wine), emuladores e jogos de navegador. O aplicativo de desktop e o site são softwares livres, suas
+    contribuições são bem vindas!</p>
+ProjectLicense: GPL-3.0
+DeveloperName:
+  C: Lutris Team
+Categories:
+- Game
+- PackageManager
+Keywords:
+  C:
+  - Emulators
+  - Games
+  - Lutris
+  - Steam
+  - Wine
+Url:
+  homepage: https://lutris.net
+  donation: https://lutris.net/donate
+  help: https://forums.lutris.net
+  faq: https://lutris.net/faq
+  translate: https://github.com/lutris/lutris/tree/master/po
+  bugtracker: https://github.com/lutris/lutris/issues
+Screenshots:
+- default: true
+  caption:
+    C: Main window
+  thumbnails: []
+  source-image:
+    url: https://lutris.net/static/images/screenshots/main-window.png
+    lang: C
+Icon:
+  cached:
+  - name: lutris.png
+    width: 64
+    height: 64
+  - name: lutris.png
+    width: 128
+    height: 128
+Launch:
+  desktop-id:
+    - net.lutris.Lutris.desktop
+Provides:
+  binaries:
+  - lutris
+Custom:
+  x-appcenter-color-primary: '#ff9900'
+  x-appcenter-color-primary-text: '#fff'
+---
+
+ID: com.github.tkashkin.gamehub.desktop
+Package: com.github.tkashkin.gamehub
+Type: desktop-application
+Name:
+  C: GameHub
+Summary:
+  C: All your games in one place
+  de: Alle Ihre Spiele an einem Ort
+  nl: Al je spellen op één plek
+  nb_NO: Alle dine spill på ett sted
+  id: Semua permainan Anda di satu tempat
+  pt_BR: Todos os seus jogos em um só lugar
+  ru: Все игры в одном месте
+
+Description:
+  C: >-
+    <p>Manage your Steam, GOG and Humble Bundle games in one place.</p>
+ProjectLicense: GPL-3.0
+DeveloperName:
+  C: Anatoliy Kashkin
+Categories:
+- Game
+- PackageManager
+Keywords:
+  C:
+  - Bundle
+  - GameHub
+  - Games
+  - GOG
+  - Humble
+  - Steam
+Url:
+  homepage: https://tkashkin.tk/projects/gamehub
+  bugtracker: https://github.com/tkashkin/GameHub/issues
+Screenshots:
+- default: true
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/tkashkin/GameHub/8b321ac7991d2946b1d331e1a2e525ceb2ece324/data/screenshots/light/welcome%402x.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/tkashkin/GameHub/8b321ac7991d2946b1d331e1a2e525ceb2ece324/data/screenshots/dark/grid%402x.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/tkashkin/GameHub/8b321ac7991d2946b1d331e1a2e525ceb2ece324/data/screenshots/light/list%402x.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/tkashkin/GameHub/8b321ac7991d2946b1d331e1a2e525ceb2ece324/data/screenshots/dark/details%402x.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/tkashkin/GameHub/8b321ac7991d2946b1d331e1a2e525ceb2ece324/data/screenshots/light/properties%402x.png
+    lang: C
+Icon:
+  cached:
+  - name: com.github.tkashkin.gamehub.png
+    width: 64
+    height: 64
+  - name: com.github.tkashkin.gamehub.png
+    width: 128
+    height: 128
+Launch:
+  desktop-id:
+    - com.github.tkashkin.gamehub.desktop
+Provides:
+  binaries:
+  - com.github.tkashkin.gamehub
+Custom:
+  x-appcenter-color-primary: '#3d1f61'
+  x-appcenter-color-primary-text: '#fff'
+---
+Type: desktop-application
+ID: signal-desktop.desktop
+Package: signal-desktop
+Name:
+  C: Signal
+Summary:
+  C: Private messenger for the desktop
+Description:
+  C: "<p>Signal is a Free and Open Source instant messenger allowing you to communicate with complete privacy. The messages are end-to-end encrypted and the server does not store any of your data.</p>"
+DeveloperName:
+  C: Whisper Systems
+ProjectLicense: GPL-3.0
+Url:
+  homepage: https://signal.org/
+Icon:
+  cached:
+  - name: signal-desktop.png
+    width: 64
+    height: 64
+  - name: signal-desktop.png
+    width: 128
+    height: 128
+Screenshots:
+- default: true
+  thumbnails: []
+  source-image:
+    url: https://signal.org/blog/images/signal-desktop-foucault.png
+    lang: C
+Provides:
+  binaries:
+  - signal-desktop
+Releases:
+- version: 1.7.1
+  type: stable
+  unix-timestamp: 1523577600
+- version: 1.7.0
+  type: stable
+  unix-timestamp: 1523491200
+- version: 1.6.0
+  type: stable
+  unix-timestamp: 1520985600
+- version: 1.5.2
+  type: stable
+  unix-timestamp: 1519948800
+- version: 1.5.1
+  type: stable
+  unix-timestamp: 1519862400
+- version: 1.3.0
+  type: stable
+  unix-timestamp: 1517356800
+- version: 1.2.0
+  type: stable
+  unix-timestamp: 1516752000
+- version: 1.1.0
+  type: stable
+  unix-timestamp: 1513728000
+- version: 1.0.41
+  type: stable
+  unix-timestamp: 1512604800
+- version: 1.0.40
+  type: stable
+  unix-timestamp: 1512432000
+- version: 1.0.39
+  type: stable
+  unix-timestamp: 1511308800
+- version: 1.0.38
+  type: stable
+  unix-timestamp: 1510704000
+- version: 1.0.37
+  type: stable
+  unix-timestamp: 1510099200
+- version: 1.0.35
+  type: stable
+  unix-timestamp: 1509494400
+Custom:
+  x-appcenter-color-primary: '#e8f4fd'
+  x-appcenter-color-primary-text: '#333'
+
+---
+Type: desktop-application
+ID: natron.desktop
+Package: natron
+Name:
+  C: Natron
+Summary:
+  C: Open source compositing software for VFX and Motion Graphics
+Description:
+  C: >-
+    <p>Natron is a powerful Digital Compositor that can handle of your 2D/2.5D needs. Its robust OIIO file formats and OpenFX architecture is what make Natron the most flexible open source compositor for the visual effects community. Its interface and functionally are the same across all platforms such as MacOS, Linux and Windows. Natron has a powerful keying, roto/rotopaint, 2D tracking tools that are staple for all current film production project that requires visual effects.</p>
+    <p>On the surface Natron has a powerful GUI interface that is a flexible and intuitive multi-platform node based engine. Natron may seem to be a simple compositing application but it does have layers of complexity that will allow your creativity to reach new heights. Natron has flexible Roto and Rotopaint tool-set that can generate unlimited layers of masks, mattes and shapes. Natron has a powerful 2D and Planar tracker to help reduce hours of rotoscoping to meet personal or client deadlines. It has some strong keying or matte generation tools that has been developed from the main OFX software developers and a plethora of tools from the open source plugin developing community.</p>
+DeveloperName:
+  C: INRIA
+ProjectLicense: GPLv2
+Categories:
+- AudioVideo
+- Video
+Url:
+  homepage: https://natrongithub.github.io/
+Icon:
+  cached:
+  - name: natron.png
+    width: 64
+    height: 64
+  - name: natron.png
+    width: 128
+    height: 128
+Screenshots:
+- thumbnails: []
+  source-image:
+    url: https://natrongithub.github.io/img/node_Organization.jpg
+    lang: C
+Releases:
+- version: 2.3.14
+  type: stable
+  unix-timestamp: 1538582546
+Provides:
+  binaries:
+  - natron
+Custom:
+  x-appcenter-color-primary: '#584b4f'
+  x-appcenter-color-primary-text: '#fff'
+
+---
+Type: desktop-application
+ID: com.uploadedlobster.peek.desktop
+Package: peek
+Name:
+  C: Peek
+Summary:
+  C: Simple screen recorder with an easy to use interface
+Description:
+  C: >-
+    <p>Peek makes it easy to create short screencasts of a screen area. It was built for the specific use case of recording screen areas, e.g. for easily showing UI features of your own apps or for showing a bug in bug reports. With Peek you simply place the Peek window over the area you want to record and press &quot;Record&quot;. Peek is optimized for generating animated GIFs, but you can also directly record to WebM or MP4 if you prefer.</p>
+    <p>Features:</p>
+    <ul>
+      <li>Select a screen region to record</li>
+      <li>Save recorded video as an optimized animated GIF</li>
+      <li>Record directly to WebM or MP4 format</li>
+      <li>Simple user interface optimized for the task</li>
+      <li>Automatically downscale recorded videos</li>
+      <li>Support for HiDPI screens</li>
+      <li>Works inside a GNOME Shell Wayland session (using XWayland)</li>
+    </ul>
+    <p>Peek is not a general purpose screencast app with extended features but rather focuses on the single task of creating small, silent screencasts of an area of the screen for creating GIF animations or silent WebM or MP4 videos.</p>
+DeveloperName:
+  C: Philipp Wolfer
+ProjectLicense: GPL-3.0+
+Categories:
+- Graphics
+- Utility
+- GNOME
+- GTK
+Url:
+  homepage: http://peek.uploadedlobster.com
+  faq: https://github.com/phw/peek#frequently-asked-questions
+  bugtracker: https://github.com/phw/peek/issues
+Icon:
+  cached:
+  - name: com.uploadedlobster.peek.png
+    width: 64
+    height: 64
+  - name: com.uploadedlobster.peek.png
+    width: 128
+    height: 128
+Provides:
+  binaries:
+  - peek
+Screenshots:
+- default: true
+  caption:
+    C: The main window to select the recording area
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/phw/peek/master/data/screenshots/peek-main-window.png
+    lang: C
+- caption:
+    C: Peek's preferences dialog
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/phw/peek/master/data/screenshots/peek-preferences.png
+    lang: C
+- caption:
+    C: Peek is recording itself
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/phw/peek/master/data/screenshots/peek-recording-itself.gif
+    lang: C
+Releases:
+- version: 1.3.1
+  type: stable
+  unix-timestamp: 1522281600
+- version: 1.3.0
+  type: stable
+  unix-timestamp: 1521936000
+- version: 1.2.2
+  type: stable
+  unix-timestamp: 1517097600
+- version: 1.2.1
+  type: stable
+  unix-timestamp: 1512259200
+- version: 1.2.0
+  type: stable
+  unix-timestamp: 1511568000
+- version: 1.1.0
+  type: stable
+  unix-timestamp: 1507161600
+- version: 1.0.3
+  type: stable
+  unix-timestamp: 1497312000
+- version: 1.0.2
+  type: stable
+  unix-timestamp: 1497312000
+- version: 1.0.1
+  type: stable
+  unix-timestamp: 1490486400
+- version: 1.0.0
+  type: stable
+  unix-timestamp: 1489190400
+- version: 0.9.1
+  type: stable
+  unix-timestamp: 1487635200
+- version: 0.9.0
+  type: stable
+  unix-timestamp: 1487548800
+- version: 0.8.0
+  type: stable
+  unix-timestamp: 1477353600
+- version: 0.7.2
+  type: stable
+  unix-timestamp: 1467849600
+- version: 0.7.1
+  type: stable
+  unix-timestamp: 1456617600
+- version: 0.7.0
+  type: stable
+  unix-timestamp: 1456444800
+- version: 0.6.0
+  type: stable
+  unix-timestamp: 1453939200
+- version: 0.5.0
+  type: stable
+  unix-timestamp: 1452297600
+- version: 0.4.0
+  type: stable
+  unix-timestamp: 1452211200
+- version: 0.3.0
+  type: stable
+  unix-timestamp: 1452211200
+- version: 0.2.1
+  type: stable
+  unix-timestamp: 1452124800
+- version: 0.2.0
+  type: stable
+  unix-timestamp: 1452124800
+- version: 0.1.0
+  type: stable
+  unix-timestamp: 1451952000
+Custom:
+  x-appcenter-color-primary: '#eee'
+  x-appcenter-color-primary-text: '#f57900'
+
+---
+Type: desktop-application
+ID: chromium-browser.desktop
+Package: chromium-browser
+Name:
+  C: Chromium Web Browser
+Summary:
+  C: The web browser from Chromium project
+Description:
+  C: >-
+    <p>Chromium is an open-source browser project that aims to build a safer, faster, and more stable way to experience the web.</p>
+    <p>We invite you to join our effort to build a powerful platform for developing a new generation of web applications.</p>
+    <p>Chromium supports Vorbis, Theora, WebM and HTML5 audio and video standards, but does not include the non-free AAC, H.264, MP3 or Adobe Flash code that is found in Chrome.</p>
+DeveloperName:
+  C: The Chromium Authors
+Categories:
+ - Network
+ - WebBrowser
+Keywords:
+  C:
+  - Chrome
+  - Internet
+  - Browser
+  - Web
+ProjectLicense: BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)
+Url:
+  homepage: https://www.chromium.org/Home
+  bugtracker: https://www.chromium.org/for-testers/bug-reporting-guidelines
+  help: https://chromium.googlesource.com/chromium/src/+/master/docs/linux_debugging.md
+Icon:
+  cached:
+  - name: chromium-browser.png
+    width: 64
+    height: 64
+  - name: chromium-browser.png
+    width: 128
+    height: 128
+Provides:
+  mimetypes:
+   - application/xhtml+xml
+   - text/html
+   - text/xml
+   - x-scheme-handler/http
+   - x-scheme-handler/https
+  binaries:
+   - chromium-browser
+Screenshots:
+- default: true
+  caption: {}
+  thumbnails: []
+  source-image:
+    url: https://www.gstatic.com/chrome/appstream/chrome-2.png
+    lang: C
+Custom:
+  x-appcenter-color-primary: '#eaebed'
+  x-appcenter-color-primary-text: '#414141'
+
+---
+Type: desktop-application
+ID: slack.desktop
+Package: slack-desktop
+Name:
+  C: Slack
+Summary:
+  C: Where Work Happens
+Description:
+  C: >-
+    <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.</p>
+    <p>Slack offers chat rooms organized by topic, private groups, and direct messaging capabilities to facilitate conversation and help your team get things done.</p>
+    <p>All content inside Slack is searchable, including files, conversations, and people, so it&apos;s easy to stay organized.</p>
+    <p>Integration with several third-party services allows use of their features directly within your Slack discussions.</p>
+DeveloperName:
+  C: Slack
+ProjectLicense: LicenseRef-proprietary
+Categories:
+- InstantMessaging
+- Network
+Url:
+  homepage: https://slack.com
+Icon:
+  remote:
+  - url: https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w64
+    width: 64
+    height: 64
+  - url: https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w128
+    width: 128
+    height: 128
+Screenshots:
+- thumbnails: []
+  source-image:
+    url: https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.slack.Slack/C/com.slack.slack-screenshot1.jpg
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.slack.Slack/C/com.slack.slack-screenshot2.jpg
+    lang: C
+Provides:
+  binaries:
+  - slack-desktop
+Releases:
+- version: 3.1.1
+  type: stable
+  unix-timestamp: 1523318400
+- version: 3.1.0
+  type: stable
+  unix-timestamp: 1520812800
+- version: 3.0.5
+  type: stable
+  unix-timestamp: 1516579200
+ContentRating:
+  oars-1.0:
+    violence-cartoon: none
+    violence-fantasy: none
+    violence-realistic: none
+    violence-bloodshed: none
+    violence-sexual: none
+    drugs-alcohol: none
+    drugs-narcotics: none
+    drugs-tobacco: none
+    sex-nudity: none
+    sex-themes: none
+    language-profanity: none
+    language-humor: none
+    language-discrimination: none
+    social-chat: intense
+    social-info: intense
+    social-audio: intense
+    social-location: none
+    social-contacts: intense
+    money-purchasing: none
+    money-gambling: none
+Custom:
+  x-appcenter-color-primary: '#563a59'
+  x-appcenter-color-primary-text: '#fff'
+
+---
+Type: desktop-application
+ID: firefox.desktop
+Package: firefox
+Name:
+  C: Firefox
+Summary:
+  C: Mozilla Firefox web browser
+Description:
+  C: >-
+    <p>Faster page loading, less memory usage and packed with features, the new Firefox is here.</p>
+    
+    <ul>
+      <li>2x Faster: The best Firefox ever</li>
+      <li>Lightweight: Uses 30% less memory than Chrome</li>
+      <li>Powerfully private: Truly Private Browsing with Tracking Protection</li>
+    </ul>
+
+    <p>Firefox doesn’t sell access to your personal information like other companies. From privacy tools to tracking protection, you’re in charge of who sees what.</p>
+    
+    <p>Features:</p>
+    
+    <ul>
+      <li>Your favorite add-ons and extensions</li>
+      <li>Customize your browser with themes</li>
+      <li>Sync between devices: Sign in to your Firefox Account on mobile or tablet to get your open tabs, bookmarks and passwords anywhere.</li>
+      <li>Firefox Test Pilot: Test new features. Give your feedback. Help build Firefox.</li>
+      <li>Better bookmarks: Don’t agonize, lovers of bookmarking. Organize with Firefox.</li>
+      <li>More Powerful Private Browsing: More protection. Less worry.</li>
+      <li>Password Manager: Give up the memory game with Firefox Password Manager.</li>
+      <li>Balanced memory usage: Speed up your computer and stop running out of memory.</li>
+      <li>Browse faster: We’ve been working out, so you can get more done.</li>
+    </ul>
+
+    <p>Benefits:</p>
+
+    <ul>
+      <li>Open source: We’re always transparent.</li>
+      <li>By non-profit, Mozilla: Protecting the health of the internet.</li>
+      <li>Protect your rights: We help keep corporate powers in check.</li>
+      <li>Limited data collection: Opted-in to privacy, so you can browse freely.</li>
+      <li>More private: We don’t sell access to your online data. Period.</li>
+    </ul>
+ProjectLicense: MPL-1.1 OR GPL-2.0+ OR LGPL-2.1+
+DeveloperName:
+  C: Mozilla Corporation
+Categories:
+ - Network
+ - WebBrowser
+Keywords:
+  C:
+  - Firefox
+  - Internet
+  - Browser
+Url:
+  homepage: https://www.mozilla.org/en-US/firefox/
+Icon:
+  cached:
+  - name: firefox.png
+    width: 64
+    height: 64
+  - name: firefox.png
+    width: 128
+    height: 128
+Provides:
+  mimetypes:
+   - application/vnd.mozilla.xul+xml
+   - application/xhtml+xml
+   - text/html
+   - text/mml
+   - text/xml
+   - x-scheme-handler/http
+   - x-scheme-handler/https
+  binaries:
+   - firefox
+Custom:
+  x-appcenter-color-primary: '#003eaa'
+  x-appcenter-color-primary-text: '#fff'
+
+---
+Type: desktop-application
+ID: atom.desktop
+Package: atom
+Name:
+  C: Atom
+Summary:
+  C: A hackable text editor for the 21st Century
+Description:
+  C: >-
+    <p>Atom is a text editor that&apos;s modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.</p>
+DeveloperName:
+  C: Github
+ProjectLicense: MIT
+Categories:
+- Development
+- IDE
+Url:
+  homepage: https://atom.io
+Icon:
+  cached:
+  - name: atom.png
+    width: 64
+    height: 64
+  - name: atom.png
+    width: 128
+    height: 128
+Screenshots:
+- thumbnails: []
+  source-image:
+    url: https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/screenshot-main-04d5696e786a54803aa385acbc7c9ba3.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7c/Screenshot_of_Atom_editor.png
+    lang: C
+Releases:
+- version: 1.26.0
+  type: stable
+  unix-timestamp: 1524009600
+Provides:
+  binaries:
+  - atom
+Custom:
+  x-appcenter-color-primary: '#584b4f'
+  x-appcenter-color-primary-text: '#fff'
+
