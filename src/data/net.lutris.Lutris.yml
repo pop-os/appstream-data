@@ -1,0 +1,71 @@
+
+ID: net.lutris.Lutris
+Package: lutris
+Type: desktop-application
+Name:
+  C: Lutris
+Summary:
+  C: Lutris is an open source gaming platform
+Description:
+  C: >-
+    <p>Lutris helps you install and manage your games in a unified interface. Our goal is to support every game which runs on Linux, from native
+    to Windows games (via Wine) to emulators and browser games. The desktop application and the website are libre software, your contributions
+    are welcome!</p>
+  es: >-
+    <p>Lutris membantu Anda memasang dan mengelola permainan Anda dalam antarmuka terpadu. Tujuan kami adalah untuk mendukung setiap permainan
+    yang berjalan di Linux, dari permainan native ke Windows (melalui Wine) ke emulator dan peramban permainan. Aplikasi destop dan situs web
+    adalah perangkat lunak libre, kontribusi Anda diterima!</p>
+  id: >-
+    <p>Lutris membantu Anda memasang dan mengelola permainan Anda dalam antarmuka terpadu. Tujuan kami adalah untuk mendukung setiap permainan
+    yang berjalan di Linux, dari permainan native ke Windows (melalui Wine) ke emulator dan peramban permainan. Aplikasi destop dan situs web
+    adalah perangkat lunak libre, kontribusi Anda diterima!</p>
+  pt_BR: >-
+    <p>Lutris ajuda você a instalar e gerenciar seus jogos em uma interface unificada. Nosso objetivo é suportar todos os jogos que rodam no Linux,
+    desde jogos nativos até Windows (via Wine), emuladores e jogos de navegador. O aplicativo de desktop e o site são softwares livres, suas
+    contribuições são bem vindas!</p>
+ProjectLicense: GPL-3.0
+DeveloperName:
+  C: Lutris Team
+Categories:
+- Game
+- PackageManager
+Keywords:
+  C:
+  - Emulators
+  - Games
+  - Lutris
+  - Wine
+Url:
+  homepage: https://lutris.net
+  donation: https://lutris.net/donate
+  help: https://forums.lutris.net
+  faq: https://lutris.net/faq
+  translate: https://github.com/lutris/lutris/tree/master/po
+  bugtracker: https://github.com/lutris/lutris/issues
+Screenshots:
+- default: true
+  caption:
+    C: Main window
+  thumbnails: []
+  source-image:
+    url: https://lutris.net/static/images/screenshots/main-window.png
+    width: 1145
+    height: 595
+    lang: C
+Icon:
+  cached:
+  - name: lutris.png
+    width: 64
+    height: 64
+  - name: lutris.png
+    width: 128
+    height: 128
+Launch:
+  desktop-id:
+    - net.lutris.Lutris.desktop
+Provides:
+  binaries:
+  - lutris
+Custom:
+  x-appcenter-color-primary: '#ff9900'
+  x-appcenter-color-primary-text: '#fff'
