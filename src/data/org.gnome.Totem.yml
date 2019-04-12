@@ -1,0 +1,24 @@
+---
+Type: desktop
+ID: org.gnome.Totem.desktop
+Package: ~
+Name:
+  C: Videos
+Summary:
+  C: Play movies
+Description:
+  C: "Videos is the official movie player of the GNOME desktop environment.\n      It features a searchable list of local videos, and DVDs, as well as local\n      network video shares (using UPnP/DLNA) and video highlights from a number\n      of web sites."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

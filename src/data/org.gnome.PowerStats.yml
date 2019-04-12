@@ -1,0 +1,32 @@
+---
+Type: desktop
+ID: org.gnome.PowerStats.desktop
+Package: ~
+Name:
+  C: GNOME Power Statistics
+Summary:
+  C: Observe power management
+Description:
+  C: This release updates the header style to match other GNOME applications.
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+ and GFDL-1.3
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://git.gnome.org/browse/gnome-power-manager/plain/data/appdata/gpm-stats-history.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://git.gnome.org/browse/gnome-power-manager/plain/data/appdata/gpm-stats-wakeups.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

@@ -1,0 +1,24 @@
+---
+Type: font
+ID: fonts-hack
+Package: ~
+Name:
+  C: Hack
+Summary:
+  C: Typeface designed for source code
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: OFL-1.1
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

@@ -1,0 +1,24 @@
+---
+Type: desktop
+ID: yelp.desktop
+Package: ~
+Name:
+  C: GNOME Help
+Summary:
+  C: Help viewer for GNOME
+Description:
+  C: "Yelp is the GNOME help viewer. It is the default Mallard viewer, but it\n      can also display DocBook, info, man, and HTML documentation."
+DeveloperName:
+  C: The GNOME Project
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

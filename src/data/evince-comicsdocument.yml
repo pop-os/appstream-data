@@ -1,0 +1,34 @@
+---
+Type: addon
+ID: evince-comicsdocument
+Package: ~
+Name:
+  C: Comic Books
+Summary:
+  C: Adds support for reading comic books
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes:
+    - application/x-cbr
+    - application/x-cbz
+    - application/x-cb7
+    - application/x-cbt
+    - application/x-ext-cbr
+    - application/x-ext-cbz
+    - application/x-ext-cb7
+    - application/x-ext-cbt
+    - application/vnd.comicbook+zip
+    - application/vnd.comicbook-rar
+  binaries: []

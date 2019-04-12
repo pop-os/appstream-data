@@ -1,0 +1,29 @@
+---
+Type: desktop-application
+ID: io.elementary.appcenter.desktop
+Package: ~
+Name:
+  C: Pop!_Shop
+Summary:
+  C: Browse and manage apps
+Description:
+  C: "Search performance has beeen improved, the category name is now shown on the headbar and minor bugs have been fixed."
+DeveloperName:
+  C: System76
+ProjectLicense: GPL-3.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://raw.githubusercontent.com/pop-os/shop/master_bionic/data/screenshot.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries:
+    - io.elementary.appcenter

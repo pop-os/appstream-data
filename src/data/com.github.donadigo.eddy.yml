@@ -1,0 +1,39 @@
+---
+Type: desktop
+ID: com.github.donadigo.eddy.desktop
+Package: ~
+Name:
+  C: Eddy
+Summary:
+  C: Install and Manage .deb Files
+Description:
+  C: Initial release
+DeveloperName:
+  C: Adam Bieńkowski
+ProjectLicense: GPL-3.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://raw.githubusercontent.com/donadigo/eddy/master/Screenshot_1.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://raw.githubusercontent.com/donadigo/eddy/master/Screenshot_2.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://raw.githubusercontent.com/donadigo/eddy/master/Screenshot_3.png"
+      lang: C
+Provides:
+  mimetypes:
+    - application/x-debian-package
+    - application/vnd.debian.binary-package
+  binaries:
+    - com.github.donadigo.eddy

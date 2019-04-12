@@ -1,0 +1,40 @@
+---
+Type: desktop
+ID: org.gnome.Calendar.desktop
+Package: ~
+Name:
+  C: Calendar
+Summary:
+  C: Calendar for GNOME
+Description:
+  C: "This is the third stable release for GNOME Calendar 3.22, and focuses on\n          bugfixes and stability issues."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-3.0-or-later
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/gnome-calendar/raw/master/data/appdata/default.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/gnome-calendar/raw/master/data/appdata/management.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/gnome-calendar/raw/master/data/appdata/search.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/gnome-calendar/raw/master/data/appdata/calendar-management.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

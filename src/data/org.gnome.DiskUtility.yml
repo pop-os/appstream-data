@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: org.gnome.DiskUtility.desktop
+Package: ~
+Name:
+  C: GNOME Disks
+Summary:
+  C: Disk management utility for GNOME
+Description:
+  C: "Disks provides an easy way to inspect, format, partition, and configure disks\n      and block devices."
+DeveloperName:
+  C: The GNOME Project
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/gnome-disk-utility/raw/master/data/appdata-screenshot.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

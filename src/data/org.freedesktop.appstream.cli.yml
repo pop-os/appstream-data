@@ -1,0 +1,25 @@
+---
+Type: console-application
+ID: org.freedesktop.appstream.cli
+Package: ~
+Name:
+  C: AppStream CLI
+Summary:
+  C: An utility to work with AppStream metadata
+Description:
+  C: AppStream is a cross-distribution specification to provide metadata about software components.
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries:
+    - appstreamcli

@@ -1,0 +1,24 @@
+---
+Type: addon
+ID: gimp-data-extras
+Package: ~
+Name:
+  C: Extra files for GIMP
+Summary:
+  C: "Patterns, gradients, and other extra files for GIMP"
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-3.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

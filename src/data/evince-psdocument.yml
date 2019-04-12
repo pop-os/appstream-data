@@ -1,0 +1,32 @@
+---
+Type: addon
+ID: evince-psdocument
+Package: ~
+Name:
+  C: PostScript Documents
+Summary:
+  C: Adds support for reading PostScript documents
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes:
+    - application/postscript
+    - application/x-bzpostscript
+    - application/x-gzpostscript
+    - image/x-eps
+    - image/x-bzeps
+    - image/x-gzeps
+    - application/x-ext-ps
+    - application/x-ext-eps
+  binaries: []

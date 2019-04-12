@@ -1,0 +1,24 @@
+---
+Type: console-application
+ID: org.freedesktop.fwupd
+Package: ~
+Name:
+  C: fwupd
+Summary:
+  C: Update device firmware on Linux
+Description:
+  C: fwupd is a simple daemon to allow session software to update firmware.
+DeveloperName:
+  C: ~
+ProjectLicense: LGPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

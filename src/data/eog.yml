@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: eog.desktop
+Package: ~
+Name:
+  C: Eye of GNOME
+Summary:
+  C: Browse and rotate images
+Description:
+  C: "The Eye of GNOME is the official image viewer for the GNOME desktop.\n      It integrates with the GTK+ look and feel of GNOME, and supports many image\n      formats for viewing single images or images in a collection."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+ and GFDL-1.3
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/eog/raw/master/data/screenshot.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

@@ -1,0 +1,24 @@
+---
+Type: ~
+ID: nomacs.desktop
+Package: ~
+Name:
+  C: ~
+Summary:
+  C: View and edit images
+Description:
+  C: "Nomacs is a fast image viewer with additional image editing functionality.\n      When viewing images, it features fast thumbnail previews, a zoomable grid\n      display of thumbnails, a chromeless view, and display of metadata and\n      image details with a histogram.\n      It also has the ability to edit images, including cropping, resizing,\n      rotating and color correction."
+DeveloperName:
+  C: ~
+ProjectLicense: ~
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

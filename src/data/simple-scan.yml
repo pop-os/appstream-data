@@ -1,0 +1,24 @@
+---
+Type: desktop
+ID: simple-scan.desktop
+Package: ~
+Name:
+  C: Simple Scan
+Summary:
+  C: Scan Documents
+Description:
+  C: "A really easy way to scan both documents and photos.\n      You can crop out the bad parts of a photo and rotate it if it is the wrong way round.\n      You can print your scans, export them to pdf, or save them in a range of image formats."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-3.0+ and CC-BY-SA-3.0
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

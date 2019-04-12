@@ -1,0 +1,25 @@
+---
+Type: ~
+ID: system-config-printer.desktop
+Package: ~
+Name:
+  C: Print Settings
+Summary:
+  C: Configure printer queues
+Description:
+  C: "With system-config-printer you can add, edit and delete printer queues. It allows you to choose the connection method and the printer driver."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries:
+    - system-config-printer

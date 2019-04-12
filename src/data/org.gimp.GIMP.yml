@@ -1,0 +1,35 @@
+---
+Type: desktop
+ID: org.gimp.GIMP
+Package: ~
+Name:
+  C: GNU Image Manipulation Program
+Summary:
+  C: Create images and edit photographs
+Description:
+  C: GIMP 2.9.8 introduces on-canvas gradient editing and various enhancements while focusing on bugfixing and stability.
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-3.0+ AND LGPL-3.0+
+Categories: []
+Keywords:
+  - GIMP
+  - Photoshop
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://www.gimp.org/screenshots/Screenshot-gimp-2.10-painting.jpg"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://www.gimp.org/screenshots/Screenshot-gimp-2.10-photo-editing.jpg"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries:
+    - gimp-2.10

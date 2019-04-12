@@ -1,0 +1,30 @@
+---
+Type: addon
+ID: evince-pdfocument
+Package: ~
+Name:
+  C: PDF Documents
+Summary:
+  C: Adds support for reading PDF Documents
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes:
+    - application/pdf
+    - application/x-bzpdf
+    - application/x-gzpdf
+    - application/x-xzpdf
+    - application/x-ext-pdf
+    - application/illustrator
+  binaries: []

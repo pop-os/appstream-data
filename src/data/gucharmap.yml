@@ -1,0 +1,24 @@
+---
+Type: desktop-application
+ID: gucharmap.desktop
+Package: ~
+Name:
+  C: Character Map
+Summary:
+  C: Insert special characters into documents
+Description:
+  C: "GNOME Character Map is a Unicode character map program, part of GNOME desktop. This program allows characters to be displayed by unicode block or script type. It includes brief descriptions of related characters and occasionally meanings of the character in question."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-3.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

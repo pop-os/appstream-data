@@ -1,0 +1,32 @@
+---
+Type: desktop
+ID: libreoffice-draw.desktop
+Package: ~
+Name:
+  C: LibreOffice Draw
+Summary:
+  C: Graphics editor part of the LibreOffice productivity suite
+Description:
+  C: "LibreOffice Draw is an easy-to-use graphics editor, which empowers you to create\nanything from quick sketches to complex diagrams.\nIt provides a powerful set of tools and shapes for producing technical drawings,\ncharts, and much else."
+DeveloperName:
+  C: The Document Foundation
+ProjectLicense: MPL-2.0
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/draw-01.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/draw-02.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: org.gnome.Screenshot.desktop
+Package: ~
+Name:
+  C: GNOME Screenshot
+Summary:
+  C: Save images of your screen or individual windows
+Description:
+  C: "GNOME Screenshot is a simple utility that lets you take pictures of your computer screen.\n      Screenshots can be of your whole screen, any specific application, or a selected\n      rectangular area.\n      You can also copy the captured screenshot directly into the GNOME clipboard and\n      paste it into other applications."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://git.gnome.org/browse/gnome-screenshot/plain/src/gnome-screenshot.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

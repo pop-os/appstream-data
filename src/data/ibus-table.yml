@@ -1,0 +1,24 @@
+---
+Type: inputmethod
+ID: table.xml
+Package: ~
+Name:
+  C: Ibus Table
+Summary:
+  C: Table based input method
+Description:
+  C: "This new stable release includes these changes:"
+DeveloperName:
+  C: Mike FABIAN
+ProjectLicense: LGPL-2.1+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

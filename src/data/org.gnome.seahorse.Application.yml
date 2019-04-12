@@ -1,0 +1,25 @@
+---
+Type: desktop
+ID: org.gnome.seahorse.Application
+Package: ~
+Name:
+  C: Seahorse
+Summary:
+  C: Manage your passwords and encryption keys
+Description:
+  C: "Version 3.30 is the first stable release since 3.20, with the\n          following major improvements:"
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+ and LGPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries:
+    - seahorse

@@ -1,0 +1,24 @@
+---
+Type: desktop-application
+ID: org.gnome.Terminal.desktop
+Package: ~
+Name:
+  C: Terminal
+Summary:
+  C: Use the command line
+Description:
+  C: GNOME Terminal is a terminal emulator application for accessing a UNIX shell environment which can be used to run programs available on your system.
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-3.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

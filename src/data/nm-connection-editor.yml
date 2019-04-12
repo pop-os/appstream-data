@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: nm-connection-editor.desktop
+Package: ~
+Name:
+  C: NetworkManager
+Summary:
+  C: NetworkManager connection editor
+Description:
+  C: NetworkManager is a system service for managing and configuring your network connections and devices.
+DeveloperName:
+  C: Ağ Yöneticisi Geliştiricileri
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://git.gnome.org/browse/network-manager-applet/plain/nm-connection-editor.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

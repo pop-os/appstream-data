@@ -1,0 +1,41 @@
+---
+Type: desktop
+ID: org.gnome.Nautilus.desktop
+Package: ~
+Name:
+  C: Nautilus
+Summary:
+  C: Access and organize files
+Description:
+  C: "Nautilus, also known as Files, is the default file manager of the GNOME desktop.\n      It provides a  simple and integrated way of managing your files and browsing your file system."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories:
+  - System
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://static.gnome.org/appdata/nautilus/nautilus-201901141.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://static.gnome.org/appdata/nautilus/nautilus-201901142.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://static.gnome.org/appdata/nautilus/nautilus-201901143.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://static.gnome.org/appdata/nautilus/nautilus-201901144.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

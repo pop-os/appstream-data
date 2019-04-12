@@ -1,0 +1,40 @@
+---
+Type: desktop
+ID: org.gnome.Calculator.desktop
+Package: ~
+Name:
+  C: GNOME Calculator
+Summary:
+  C: "Perform arithmetic, scientific or financial calculations"
+Description:
+  C: "Overview of changes in gnome-calculator 3.30.1:"
+DeveloperName:
+  C: The GNOME Project
+ProjectLicense: GPL-3.0-or-later
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://people.gnome.org/~mcatanzaro/gnome-calculator-basic-mode.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://people.gnome.org/~mcatanzaro/gnome-calculator-advanced-mode.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://people.gnome.org/~mcatanzaro/gnome-calculator-financial-mode.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://people.gnome.org/~mcatanzaro/gnome-calculator-programming-mode.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

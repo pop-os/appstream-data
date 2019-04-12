@@ -1,0 +1,36 @@
+---
+Type: desktop
+ID: gnome-system-monitor.desktop
+Package: ~
+Name:
+  C: GNOME System Monitor
+Summary:
+  C: View and manage system resources
+Description:
+  C: "System Monitor is a process viewer and system monitor with\n      an attractive, easy-to-use interface."
+DeveloperName:
+  C: The GNOME Project
+ProjectLicense: GPL-2.0
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://wiki.gnome.org/Apps/SystemMonitor?action=AttachFile&do=get&target=Processes.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://wiki.gnome.org/Apps/SystemMonitor?action=AttachFile&do=get&target=Resources.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://wiki.gnome.org/Apps/SystemMonitor?action=AttachFile&do=get&target=Disks.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

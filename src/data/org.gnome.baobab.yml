@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: org.gnome.baobab.desktop
+Package: ~
+Name:
+  C: Disk Usage Analyzer
+Summary:
+  C: Check folder sizes and available disk space
+Description:
+  C: A simple application to keep your disk usage and available space under control.
+DeveloperName:
+  C: The GNOME Project
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://git.gnome.org/browse/baobab/plain/data/baobab.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

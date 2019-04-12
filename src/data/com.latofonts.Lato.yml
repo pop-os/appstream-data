@@ -1,0 +1,24 @@
+---
+Type: font
+ID: com.latofonts.Lato
+Package: ~
+Name:
+  C: Lato
+Summary:
+  C: A sanserif type­face fam­ily
+Description:
+  C: "Lato is a sanserif type­face fam­ily designed in the Sum­mer 2010 by Warsaw-based designer\n      Łukasz Dziedzic (“Lato” means “Sum­mer” in Pol­ish). In Decem­ber 2010 the Lato fam­ily\n      was pub­lished under the open-source Open Font License by his foundry tyPoland, with\n      sup­port from Google."
+DeveloperName:
+  C: ~
+ProjectLicense: OFL-1.1
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

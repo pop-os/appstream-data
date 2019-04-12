@@ -1,0 +1,26 @@
+---
+Type: addon
+ID: evince-xpsdocument
+Package: ~
+Name:
+  C: XPS Documents
+Summary:
+  C: Adds support for reading XPS documents
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes:
+    - application/oxps
+    - application/vnd.ms-xpsdocument
+  binaries: []

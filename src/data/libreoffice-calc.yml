@@ -1,0 +1,32 @@
+---
+Type: desktop
+ID: libreoffice-calc.desktop
+Package: ~
+Name:
+  C: LibreOffice Calc
+Summary:
+  C: Spreadsheet program of the LibreOffice productivity suite
+Description:
+  C: "Calc is a powerful and extensible spreadsheet program, part of the LibreOffice\nproductivity suite.\nNewcomers find it intuitive and easy to learn.\nProfessional data miners and number crunchers will appreciate the comprehensive\nrange of advanced functions."
+DeveloperName:
+  C: The Document Foundation
+ProjectLicense: MPL-2.0
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/calc-01.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/calc-02.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

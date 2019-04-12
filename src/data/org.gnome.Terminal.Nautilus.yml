@@ -1,0 +1,24 @@
+---
+Type: addon
+ID: org.gnome.Terminal.Nautilus
+Package: ~
+Name:
+  C: Terminal plugin for Files
+Summary:
+  C: Open a terminal from Files
+Description:
+  C: Open Terminal is a plugin for the Files application that adds a menu item to the context menu to open a terminal in the currently browsed directory.
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-3.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

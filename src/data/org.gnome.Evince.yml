@@ -1,0 +1,32 @@
+---
+Type: desktop-application
+ID: org.gnome.Evince
+Package: ~
+Name:
+  C: Evince
+Summary:
+  C: Document viewer for popular document formats
+Description:
+  C: "A document viewer for the GNOME desktop. You can view, search or annotate documents in many different formats."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/evince/raw/master/data/screenshots/evince-1.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/evince/raw/master/data/screenshots/evince-2.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

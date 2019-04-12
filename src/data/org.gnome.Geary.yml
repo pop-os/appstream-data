@@ -1,0 +1,36 @@
+---
+Type: desktop
+ID: org.gnome.Geary.desktop
+Package: ~
+Name:
+  C: Geary
+Summary:
+  C: Send and receive email
+Description:
+  C: "Enhancements included in this release:"
+DeveloperName:
+  C: Geary Development Team
+ProjectLicense: LGPL-2.1+
+Categories:
+  - Office
+  - Network
+  - Email
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://wiki.gnome.org/Apps/Geary?action=AttachFile&do=get&target=geary-conversation-0.12.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://wiki.gnome.org/Apps/Geary?action=AttachFile&do=get&target=geary-composer-0.12.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries:
+    - geary

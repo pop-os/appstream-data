@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: org.gnome.font-viewer.desktop
+Package: ~
+Name:
+  C: GNOME Fonts
+Summary:
+  C: View fonts on your system
+Description:
+  C: "GNOME Fonts shows you the fonts installed on your computer for your use as\n      thumbnails.\n      Selecting any thumbnails shows the full view of how the font would look under\n      various sizes."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://help.gnome.org/misc/release-notes/3.6/figures/users-font-viewer.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

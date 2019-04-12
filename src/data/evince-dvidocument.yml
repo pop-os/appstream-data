@@ -1,0 +1,28 @@
+---
+Type: addon
+ID: evince-dvidocument
+Package: ~
+Name:
+  C: DVI Documents
+Summary:
+  C: Adds support for reading DVI documents
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes:
+    - application/x-dvi
+    - application/x-bzdvi
+    - application/x-gzdvi
+    - application/x-ext-dvi
+  binaries: []

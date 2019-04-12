@@ -1,0 +1,27 @@
+---
+Type: addon
+ID: evince-djvudocument
+Package: ~
+Name:
+  C: DjVu Documents
+Summary:
+  C: Adds support for reading DjVu documents
+Description:
+  C: ~
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes:
+    - image/vnd.djvu+multipage
+    - application/x-ext-djv
+    - application/x-ext-djvu
+  binaries: []

@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: org.gnome.gedit.desktop
+Package: ~
+Name:
+  C: gedit
+Summary:
+  C: Edit text files
+Description:
+  C: "gedit is the official text editor of the GNOME desktop environment.\n      While aiming at simplicity and ease of use, gedit is a powerful general\n      purpose text editor."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://gitlab.gnome.org/GNOME/gedit/raw/master/data/screenshot.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

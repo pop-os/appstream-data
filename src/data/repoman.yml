@@ -1,0 +1,28 @@
+---
+Type: desktop
+ID: xyz.isantop.repoman
+Package: ~
+Name:
+  C: Repoman
+Summary:
+  C: Easily manage PPA
+Description:
+  C: Easily manage PPA
+DeveloperName:
+  C: Ian Santopietro
+ProjectLicense: GPL-3.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://raw.githubusercontent.com/mirkobrombin/ppaextender/master/screenshot.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

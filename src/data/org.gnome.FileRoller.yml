@@ -1,0 +1,28 @@
+---
+Type: desktop-application
+ID: org.gnome.FileRoller
+Package: ~
+Name:
+  C: File Roller
+Summary:
+  C: "Open, modify and create compressed archive files"
+Description:
+  C: "Archive Manager (also known as File Roller) is the default GNOME application for opening, creating, and\n      modifying archive and compressed archive files."
+DeveloperName:
+  C: ~
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://wiki.gnome.org/Apps/FileRoller?action=AttachFile&do=get&target=file-roller.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

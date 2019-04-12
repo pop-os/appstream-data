@@ -1,0 +1,24 @@
+---
+Type: ~
+ID: libgphoto2
+Package: ~
+Name:
+  C: libgphoto2
+Summary:
+  C: gphoto2 digital camera library
+Description:
+  C: "The gphoto2 library can be used by applications to access various\n    digital camera models, via standard protocols such as USB Mass Storage\n    and PTP, or vendor-specific protocols."
+DeveloperName:
+  C: ~
+ProjectLicense: ~
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

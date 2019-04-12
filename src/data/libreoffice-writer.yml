@@ -1,0 +1,32 @@
+---
+Type: desktop
+ID: libreoffice-writer.desktop
+Package: ~
+Name:
+  C: LibreOffice Writer
+Summary:
+  C: Word processor part of the LibreOffice productivity suite
+Description:
+  C: "Writer is the word processor inside LibreOffice productivity suite.\nUse it for everything, from dashing off a quick letter to producing an entire\nbook with tables of contents, embedded illustrations, bibliographies and diagrams.\nThe while-you-type auto-completion, auto-formatting and automatic spell-checking\nmake difficult tasks easy (but are easy to disable if you prefer).\nWriter is powerful enough to tackle desktop publishing tasks such as creating\nmulti-column newsletters and brochures. The only limit is your imagination."
+DeveloperName:
+  C: The Document Foundation
+ProjectLicense: MPL-2.0
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/writer-01.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/writer-02.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

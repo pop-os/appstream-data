@@ -1,0 +1,24 @@
+---
+Type: desktop
+ID: gnome-control-center.desktop
+Package: ~
+Name:
+  C: GNOME Settings
+Summary:
+  C: Utility to configure the GNOME desktop
+Description:
+  C: Settings is the primary interface for configuring your system.
+DeveloperName:
+  C: The GNOME Project
+ProjectLicense: GPL-2.0+
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []

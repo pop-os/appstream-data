@@ -1,0 +1,32 @@
+---
+Type: desktop
+ID: libreoffice-impress.desktop
+Package: ~
+Name:
+  C: LibreOffice Impress
+Summary:
+  C: Presentation program of the LibreOffice productivity suite
+Description:
+  C: "Impress is a presentation program and part of the LibreOffice productivity suite.\nImpress is the fastest and easiest way to create effective multimedia presentations.\nStunning animation and sensational special effects help you convince your audience.\nCreate presentations that look even more professional than the standard\npresentations you commonly see at work. Get your colleagues’ and bosses’ attention\nby creating something a little bit different."
+DeveloperName:
+  C: The Document Foundation
+ProjectLicense: MPL-2.0
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/impress-01.png"
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: "https://hub.libreoffice.org/screenshots/impress-02.png"
+      lang: C
+Provides:
+  mimetypes: []
+  binaries: []

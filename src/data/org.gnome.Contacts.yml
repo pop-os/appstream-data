@@ -1,0 +1,29 @@
+---
+Type: desktop
+ID: org.gnome.Contacts
+Package: ~
+Name:
+  C: Contacts
+Summary:
+  C: A contacts manager for GNOME
+Description:
+  C: "This is an unstable release in the 3.25 development series,\n          with the following improvements:"
+DeveloperName:
+  C: The GNOME Project
+ProjectLicense: GPL-2.0-or-later
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: "\n      https://wiki.gnome.org/Apps/Contacts?action=AttachFile&do=get&target=appdata.png\n    "
+      lang: C
+Provides:
+  mimetypes: []
+  binaries:
+    - gnome-contacts

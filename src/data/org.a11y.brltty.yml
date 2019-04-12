@@ -1,0 +1,24 @@
+---
+Type: ~
+ID: org.a11y.brltty
+Package: ~
+Name:
+  C: BRLTTY
+Summary:
+  C: Support for braille devices
+Description:
+  C: ~
+DeveloperName:
+  C: The BRLTTY Developers
+ProjectLicense: GPL-2.0
+Categories: []
+Keywords: []
+Url:
+  homepage: ~
+  bugtracker: ~
+Icon:
+  cached: []
+Screenshots: []
+Provides:
+  mimetypes: []
+  binaries: []
