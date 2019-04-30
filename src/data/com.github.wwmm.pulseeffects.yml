@@ -1,0 +1,107 @@
+Type: desktop-application
+ID: com.github.wwmm.pulseeffects.desktop
+Package: pulseeffects
+Name:
+  C: PulseEffects
+  sv: PulseEffects
+  ru: PulseEffects
+  pt_BR: PulseEffects
+  pl: PulseEffects
+  it_IT: PulseEffects
+  id_ID: PulseEffects
+  hr: PulseEffects
+  fr_FR: PulseEffects
+  de: PulseEffects
+  cs: PulseEffects
+Summary:
+  C: Audio Effects for PulseAudio Applications
+Description:
+  C: >-
+    <p>PulseEffects is an advanced audio manipulation tool.</p>
+     <ul>
+       <li>It includes an equalizer, limiter, compressor and a reverberation tool, just to mention a few. To complement this there is also a built in spectrum analyzer.</li>
+       <li>Because PulseEffects uses the default PulseAudio sound server it will work with most, if not all, applications you use. All supported applications are presented in the main window, where each can be enabled individually.</li>
+       <li>Besides manipulating sound output, PulseEffects is able to apply effects to an input device, such as a microphone. This is, for example, useful in audio recording,but it also works well in voice conversations.</li>
+       <li>When PulseEffects is launched it will conveniently remember the configuration used in the last session. It is also possible to save all the current settings as profiles.</li>
+     </ul>
+DeveloperName:
+  C: Wellington Wallace
+ProjectLicense: GPL-3.0 and Copyright 2017 Patrik Nilsson
+MetadataLicense: CCO-1
+Categories:
+- Audio
+- AudioVideo
+- GTK  
+Keywords:
+  C:      
+  - limiter 
+  - compressor
+  - reverberation
+  - equalizer
+  - autovolume
+Url:
+  homepage: https://github.com/wwmm/pulseeffects
+  bugtracker: https://github.com/wwmm/pulseeffects/issues
+  help: https://github.com/wwmm/pulseeffects/blob/master/README.md
+Icon:
+  cached:
+    - name: Pulseeffects.png
+      width: 64
+      height: 64
+    - name: Pulseeffects.png      
+      width: 128
+      height: 128    
+Screenshots:
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-01.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-02.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-03.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-04.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/wwmm/pulseeffects/master/images/appdata-screenshot-05.png
+      lang: C
+Launch: 
+  desktop-id:
+    - com.github.wwmm.pulseeffects.desktop
+Releases:
+-version: 4.5.8
+-type: stable
+-unix-timestamp: 1553126400
+Provides:  
+  binaries:
+    - pulseeffects
+ContentRating:
+  oars-1.0:
+    violence-cartoon: none
+    violence-fantasy: none
+    violence-realistic: none
+    violence-bloodshed: none
+    violence-sexual: none
+    drugs-alcohol: none
+    drugs-narcotics: none
+    drugs-tobacco: none
+    sex-nudity: none
+    sex-themes: none
+    language-profanity: none
+    language-humor: none
+    language-discrimination: none
+    social-chat: none
+    social-info: none
+    social-audio: none
+    social-location: none
+    social-contacts: none
+    money-purchasing: none
+    money-gambling: none
+
