@@ -15,7 +15,8 @@ Description:
 DeveloperName:
   C: Joe Wiln
 Categories:
-- terminal
+  - System
+  - Terminal
 Keywords:
   C:
   - terminal
@@ -33,14 +34,20 @@ Url:
   homepage: https://github.com/jwilm/alacritty
   bugtracker: https://github.com/jwilm/alacritty/blob/master/CONTRIBUTING.md#bug-reports
 Screenshots:
+  - default: true
+    caption: 
+      C: Alacritty is a terminal emulator with a strong focus on simplicity and performance.
   - thumbnails: []
     source-image:
-      url: https://cloud.githubusercontent.com/assets/4285147/21585004/2ebd0288- 
+      url: https://cloud.githubusercontent.com/assets/4285147/21585004/2ebd0288-d06c-11e6-95d3-4a2889dbbd6f.png 
       lang: C
+Launch:
+  desktop-id:
+    - alacritty.desktop
 Release:
-- version: 0.3.2
-  type: stable
-  unix-timestamp: 1556145865
+  - version: 0.3.2
+    type: stable
+    unix-timestamp: 1556145865
 Provides:
   binaries:
   - alacritty
