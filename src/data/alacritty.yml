@@ -1,17 +1,15 @@
 Type: desktop-application
-ID: io.alacritty.Alacritty
+ID: alacritty.desktop
 Package: alacritty
-Name: 
+Name:
   C: Alacritty
 ProjectLicense: APACHE-2.0
-MetadataLicense: APACHE-3.0
-Summary: 
+MetadataLicense: APACHE-2.0
+Summary:
   C: A cross-platform, GPU enhanced terminal emulator.
 Description:
   C: >-
-    <p>Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it.</p>
-    <p>Alacritty currently supports macOS, Linux, BSD, and Windows.</p>
-    <p>Alacritty is a terminal emulator with a strong focus on simplicity and performance</p>
+    <p>Alacritty is a terminal emulator with a strong focus on simplicity and performance. With such a strong focus on performance, included features are carefully considered and you can always expect Alacritty to be blazingly fast. By making sane choices for defaults, Alacritty requires no additional setup. However, it does allow configuration of many aspects of the terminal.</p>
 DeveloperName:
   C: Joe Wiln
 Categories:
@@ -19,35 +17,33 @@ Categories:
   - Terminal
 Keywords:
   C:
-  - terminal
-  - GPU 
-  - emulator
+    - terminal
+    - GPU
+    - emulator
 Icon:
   cached:
-  - name: alacritty.png
-    width: 64
-    height: 64
-  - name: alacritty.png
-    width: 128
-    height: 128
+    - name: alacritty.png
+      width: 64
+      height: 64
+    - name: alacritty.png
+      width: 128
+      height: 128
 Url:
   homepage: https://github.com/jwilm/alacritty
-  bugtracker: https://github.com/jwilm/alacritty/blob/master/CONTRIBUTING.md#bug-reports
+  bugtracker: https://github.com/jwilm/alacritty/issues
 Screenshots:
-  - default: true
-    caption: 
-      C: Alacritty is a terminal emulator with a strong focus on simplicity and performance.
   - thumbnails: []
     source-image:
-      url: https://cloud.githubusercontent.com/assets/4285147/21585004/2ebd0288-d06c-11e6-95d3-4a2889dbbd6f.png 
+      url: https://cloud.githubusercontent.com/assets/4285147/21585004/2ebd0288-d06c-11e6-95d3-4a2889dbbd6f.png
       lang: C
 Launch:
   desktop-id:
     - alacritty.desktop
+    - alacritty
 Release:
   - version: 0.3.2
-    type: stable
-    unix-timestamp: 1556145865
+  - type: stable
+  - unix-timestamp: 1556145865
 Provides:
   binaries:
-  - alacritty
+    - alacritty
