@@ -1,5 +1,5 @@
 Type: desktop-application
-ID: wire-desktop.desktop
+ID: com.wire.WireDesktop
 Package: wire-desktop
 Name:
   C: Wire

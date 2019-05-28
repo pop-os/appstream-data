@@ -1,5 +1,5 @@
 Type: desktop-application
-ID: spotify.desktop
+ID: com.spotify.Client.desktop
 Package: spotify-client
 Name:
   C: Spotify

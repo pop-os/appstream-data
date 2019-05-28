@@ -1,10 +1,10 @@
 Type: desktop-application
-ID: slack.desktop
+ID: com.slack.Slack.desktop
 Package: slack-desktop
 Name:
   C: Slack
 Summary:
-  C: Where Work Happens
+  C: Chat with your team
 Description:
   C: >-
     <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.</p>
