@@ -1,5 +1,5 @@
 Type: desktop-application
-ID: popsicle.desktop
+ID: com.system76.Popsicle
 Package: popsicle-gtk
 Name:
   C: Popsicle
