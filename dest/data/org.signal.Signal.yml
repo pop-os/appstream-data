@@ -1,5 +1,5 @@
 Type: desktop-application
-ID: signal-desktop.desktop
+ID: org.signal.Signal.desktop
 Package: signal-desktop
 Name:
   C: Signal
