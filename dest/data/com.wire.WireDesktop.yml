@@ -7,13 +7,14 @@ Summary:
   C: The most secure collaboration platform
 Description:
   C: >-
-    <p>Secure messaging, file sharing, voice calls and video conferences all protected by end-to-end encryption.</p>
+    <p>Business chats, one-click conference calls and shared documents – all protected with end-to-end encryption. Also available for personal use.</p>
 DeveloperName:
   C: Wire Swiss GmbH
 ProjectLicense: GPL-3.0
+MetadataLicense: CC0-1.0
 Launch:
   desktop-id:
-    - wire-desktop %U
+    - com.wire.WireDesktop.desktop
 Categories:
   - Network
 Keywords:
@@ -36,18 +37,51 @@ Icon:
       height: 128
 Screenshots:
   - default: true
-    caption:
-    C: Wire's main window
+  - thumbnails: []
+    source-image:
+      url: https://wire-docs.wire.com/mustang/index/external-mobile.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://wire-docs.wire.com/mustang/index/guestroom.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://wire-docs.wire.com/mustang/index/productivity-mobile.jpg
+      lang: C
   - thumbnails: []
     source-image:
       url: https://wire-docs.wire.com/mustang/index/productivity-ui.png
       lang: C
+UpdateContact: info@wire.com
 Releases:
   - version: 3.9.2895-2895
     type: stable
-    unix-timestamp: 1558350947
+    unix-timestamp: 1554249600
 Provides:
   mimetypes:
     - x-scheme-handler/wire
   binaries:
     - wire-desktop
+ContentRating:
+  oars-1.1:
+    violence-cartoon: none
+    violence-fantasy: none
+    violence-realistic: none
+    violence-bloodshed: none
+    violence-sexual: none
+    drugs-alcohol: none
+    drugs-narcotics: none
+    drugs-tobacco: none
+    sex-nudity: none
+    sex-themes: none
+    language-profanity: none
+    language-humor: none
+    language-discrimination: none
+    social-chat: none
+    social-info: none
+    social-audio: none
+    social-location: none
+    social-contacts: none
+    money-purchasing: none
+    money-gambling: none
