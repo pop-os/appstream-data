@@ -14,7 +14,7 @@ Use `dch` to update the debian/changelog.
 
 Execute these commands to test any changes:
 
-```
+```sh
 kill $(pidof io.elementary.appcenter)
 rm -r ./dest/*
 yes | bash build.sh
