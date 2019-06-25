@@ -14,8 +14,9 @@ Use `dch` to update the debian/changelog.
 
 Execute these commands to test any changes:
 
-```sh
-killall io.elementary.appcenter
+```
+kill $(pidof io.elementary.appcenter)
+rm -r ./dest/*
 yes | bash build.sh
 debuild
 sudo dpkg -i ../appstream-data*.deb
