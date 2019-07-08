@@ -1,0 +1,67 @@
+Type: desktop-application
+ID: io.dbeaver.DBeaverCommunity
+Package: dbeaver-ce
+Name:
+  C: DBeaver Community
+Summary:
+  C: Universal Database Manager
+Description:
+  C: >-
+    <p>Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.</p>
+DeveloperName:
+  C: JKISS & DBeaver Community Developers
+ProjectLicense: Apache-2.0
+MetadataLicense: CC0-1.0
+Launch:
+  desktop-id:
+    - dbeaver
+Categories:
+  - Development
+  - IDE
+Keywords:
+  C:
+  - Database
+  - SQL
+  - IDE
+  - JDBC
+  - ODBC
+  - MySQL
+  - postgreSQL
+Url:
+  homepage: https://dbeaver.io
+  bugtracker: https://https://github.com/dbeaver/dbeaver/issues
+Icon:
+  cached:
+    - name: dbeaver.png
+      width: 64
+      height: 64
+    - name: dbeaver.png
+      width: 128
+      height: 128
+Screenshots:
+- default: true
+- thumbnails: []
+  source-image:
+    url: https://dbeaver.io/product/dbeaver-ss-classic.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://dbeaver.io/product/dbeaver-ss-dark.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://dbeaver.io/product/dbeaver-ss-erd.png
+    lang: C
+- thumbnails: []
+  source-image:
+    url: https://dbeaver.io/product/dbeaver-ss-mock.png
+    lang: C
+Releases:
+- version: 6.1.0
+  type: stable
+  unix-timestamp: 201906091949
+Provides:
+  mimetypes:
+    - application/SQL
+  binaries:
+    - dbeaver
