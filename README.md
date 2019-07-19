@@ -19,5 +19,6 @@ kill $(pidof io.elementary.appcenter)
 rm -r ./dest/*
 yes | bash build.sh
 debuild
-sudo dpkg -i ../appstream-data*.deb
+cd
+sudo dpkg -i appstream*.deb
  ```
