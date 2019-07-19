@@ -1,0 +1,15 @@
+Package: appstream-data-pop-icons
+Source: appstream-data-pop
+Version: 0.0.2
+Architecture: all
+Maintainer: Blake Kostner <blake@system76.com>
+Installed-Size: 151
+Depends: appstream-data-pop
+Suggests: appstream-data-pop-icons-hidpi
+Section: misc
+Priority: optional
+Description: Icons for AppStream data in Pop!_OS
+ This package contains metadata used by component-aware software
+ installers and software-centers (such as GNOME-Software, Apper and
+ KDE Discover) to display extended information about the software
+ available for Pantheon.

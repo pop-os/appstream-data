@@ -1,0 +1,12 @@
+Package: appstream-data-pop
+Version: 0.0.2
+Architecture: all
+Maintainer: Blake Kostner <blake@system76.com>
+Installed-Size: 26
+Recommends: appstream, appstream-data-pop-icons
+Section: misc
+Priority: optional
+Description: AppStream data for Pop!_OS
+ This package contains metadata used by component-aware software
+ installers and software-centers (such as GNOME-Software, Apper and
+ KDE Discover) to display extended information.
