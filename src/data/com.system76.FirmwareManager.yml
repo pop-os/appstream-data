@@ -1,0 +1,65 @@
+Type: desktop-application
+ID: com.system76.FirmwareManager
+Package: firmware-manager
+Name:
+  C: Firmware Manager
+Summary:
+  C: GTK application for managing firmware updates
+Description:
+  C: >-
+    <p>
+        The Firmware Manager is a simple GTK application for managing firmware updates. It
+        sources information on available firmware updates from both fwupd and
+        system76-firmware, and then displays that information seamlessly in one interface.
+        Only devices which are managed by either service are displayed in the UI.
+    </p>
+    <p>
+        It is not required to have either fwupd or system76-firmware installed to use the
+        application. The application will only display devices which have been discovered
+        from services accessible on the system.
+    </p>
+    <p>
+        The application monitors USB hotplug events, and will refresh the firmware list when
+        USB devices are inserted or removed. A refresh button is also included in the UI to
+        manually reload the devices in the UI.
+    </p>
+DeveloperName:
+  C: System76
+ProjectLicense: GPL-3.0-or-later
+MetadataLicense: CC0-1.0
+Categories:
+  - System
+Keywords:
+  C:
+    - firmware
+    - manager
+    - fwupd
+    - system76
+Icon:
+  cached:
+    - name: firmware-manager.png
+      width: 64
+      height: 64
+    - name: firmware-manager.png
+      width: 128
+      height: 128
+Url:
+  homepage: https://github.com/pop-os/firmware-manager
+  bugtracker: https://github.com/pop-os/firmware-manager/issues
+Screenshots:
+  - default: true
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/firmware-manager/master/screenshots/gtk.png
+      lang: C
+  - thumbnails: []
+    source-image:
+      url: https://raw.githubusercontent.com/pop-os/firmware-manager/master/screenshots/gnome-settings.png
+      lang: C
+Launch:
+  desktop-id:
+    - com.system76.FirmwareManager.desktop
+Provides:
+  binaries:
+    - com.system76.FirmwareManager
+    - com.system76.FirmwareManager.Notify

@@ -1,7 +1,7 @@
 Source: appstream-data-pop
 Section: misc
 Priority: optional
-Maintainer: Blake Kostner <blake@system76.com>
+Maintainer: System76 <info@system76.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
