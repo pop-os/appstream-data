@@ -11,6 +11,7 @@ DATE=$(date -u +%Y%m%dT%H%M%S)
 
 set -e
 
+rm -rf "$FOLD/dest"
 mkdir -p "$FOLD/dest"
 cp -R "$FOLD/src/"* "$FOLD/dest/"
 
@@ -29,7 +30,7 @@ touch "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 } > "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 
 # Iterate all the files
-for file in $(find "$FOLD/src" -type f -name "*.yml" -o -name "*.yaml"); do
+find "$FOLD/src" -type f -name "*.yml" -o -name "*.yaml" | while read file; do
     echo "---" >> "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
     cat "$file" >> "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 done
