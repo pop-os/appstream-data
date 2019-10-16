@@ -1,6 +1,6 @@
 Type: desktop-application
-ID: chromium-browser.desktop
-Package: chromium-browser
+ID: chromium.desktop
+Package: chromium
 Name:
   C: Chromium Web Browser
 Summary:
@@ -28,10 +28,10 @@ Url:
   help: https://chromium.googlesource.com/chromium/src/+/master/docs/linux_debugging.md
 Icon:
   cached:
-  - name: chromium-browser.png
+  - name: chromium.png
     width: 64
     height: 64
-  - name: chromium-browser.png
+  - name: chromium.png
     width: 128
     height: 128
 Provides:
@@ -42,7 +42,7 @@ Provides:
    - x-scheme-handler/http
    - x-scheme-handler/https
   binaries:
-   - chromium-browser
+   - chromium
 Screenshots:
 - default: true
   caption: {}
@@ -53,4 +53,3 @@ Screenshots:
 Custom:
   x-appcenter-color-primary: '#eaebed'
   x-appcenter-color-primary-text: '#414141'
-
