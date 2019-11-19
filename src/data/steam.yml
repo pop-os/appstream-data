@@ -1,5 +1,5 @@
 Type: desktop-application
-ID: com.steampowered.steam.desktop
+ID: com.valvesoftware.Steam.desktop
 Package: steam-installer
 Name:
   C: Steam
@@ -31,7 +31,7 @@ Screenshots:
     C: The main Steam library window
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-0.png
+    url: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/27766192/27b935179076c418c2f62f9440aba9c06161e4c0.jpg
     width: 1280
     height: 720
     lang: C
@@ -39,15 +39,7 @@ Screenshots:
     C: Steam Store interface
   thumbnails: []
   source-image:
-    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-1.png
-    width: 1280
-    height: 720
-    lang: C
-- caption:
-    C: Steam community
-  thumbnails: []
-  source-image:
-    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/com.valvesoftware.Steam.screenshot-2.png
+    url: https://raw.githubusercontent.com/flathub/com.valvesoftware.Steam/master/images/com.valvesoftware.Steam.screenshot-1.png
     width: 1280
     height: 720
     lang: C
