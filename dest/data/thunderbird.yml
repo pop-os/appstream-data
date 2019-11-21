@@ -1,5 +1,5 @@
 Type: desktop-application
-ID: thunderbird.desktop
+ID: org.mozilla.Thunderbird
 Package: thunderbird
 Name:
   C: Thunderbird
