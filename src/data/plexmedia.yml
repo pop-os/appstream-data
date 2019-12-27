@@ -1,0 +1,48 @@
+Type: desktop-application
+ID: plexmediaserver.desktop
+Package: plexmediaserver
+Name:
+  C: Plex Media Server
+Summary:
+  C: Plex organizes all of your personal media so you can easily access and enjoy it.
+Description:
+  C: >-
+    <p>Organize and stream your personal collection of movies, TV, music and photos anywhere on all your devices.</p><p> Over 60 million songs and podcasts, integrated beautifully with your own music collection, streamed to all your devices.</p><p>Easily cut the cord! Get over-the-air live and recorded TV, as well as Web Shows and Plex News, streamed to all your devices.</p><p>Stream 1000s of free movies and TV shows on all your devices.</p>
+DeveloperName:
+  C: Plex Build Team
+ProjectLicense: GPL-2.0
+Launch:
+  desktop-id:
+    - x-www-browser http://localhost:32400/manage
+Categories:
+  - Audio
+  - Music
+  - Video
+  - player
+  - Media
+Keywords:
+  C:
+  - Media
+  - Stream
+Url:
+  homepage: https://github.com/plexinc/plex-media-player
+Icon:
+  cached:
+    - name: plexmediaserver.png
+      width: 64
+      height: 64
+    - name: plexmediaserver.png
+      width: 128
+      height: 128
+Screenshots:
+- default: true
+  caption:
+    C: xxxx
+- thumbnails: []
+  source-image:
+    url: https://pbs.twimg.com/media/ELsGhYCXkAA0DzE.jpg:small
+    Lang: C
+Releases:
+- version: 1.18.2
+  type: stable
+  unix-timestamp: 1562112000
