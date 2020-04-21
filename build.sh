@@ -30,7 +30,7 @@ touch "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 } > "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 
 # Iterate all the files
-find "$FOLD/src" -type f -name "*.yml" -o -name "*.yaml" | while read file; do
+find "$FOLD/src" -type f -name "*.yml" -o -name "*.yaml" | sort | while read file; do
     echo "---" >> "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
     cat "$file" >> "$FOLD/dest/pop_${DIST}-${EXTR}_${ARCH}.yml"
 done
