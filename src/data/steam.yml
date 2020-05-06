@@ -1,6 +1,6 @@
 Type: desktop-application
 ID: com.valvesoftware.Steam
-Package: steam-installer
+Package: steam
 Name:
   C: Steam
 Summary:
