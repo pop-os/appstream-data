@@ -2,6 +2,13 @@
 
 Additional appstream data for Pop!_OS
 
+### Adding a Package
+* `appstreamcli convert package.appdata.xml package.yaml` converts AppData from xml to yaml format
+* The yaml frontmatter needs to be removed
+* `Package:` needs to match the debian package name
+* An `Icon:` section is needed to use an icon from this package
+* The yaml needs to be added in `src/data`, and the icon in `src/icons`
+
 ### Building
 
 Execute the `build.sh` script to re-generate the `dest` folder.
