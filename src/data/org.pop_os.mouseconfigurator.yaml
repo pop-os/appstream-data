@@ -1,0 +1,37 @@
+Type: desktop-application
+ID: org.pop_os.mouseconfigurator
+Package: mouse-configurator
+Name:
+  C: Mouse Configurator
+Summary:
+  C: Button assignment, quick and easy navigation, manage connections, sensitivity, battery status.
+Description:
+  C: "<p>\n\t\tThe Mouse Configurator app compatible with the HP 935 Creator Wireless Mouse, allows you to tailor the settings
+    of your accessory to suit your personal needs. Use the software to customize programmable buttons to help you quickly
+    navigate to your favorite apps, websites and daily task shortcuts, adjust cursor speed, verify pairing, and check battery
+    status.\n\t\t</p>"
+DeveloperName:
+  C: System76
+ProjectGroup: Pop!_OS
+ProjectLicense: MIT
+Categories:
+- Utility
+Url:
+  homepage: https://github.com/pop-os/mouse-configurator
+  bugtracker: https://github.com/pop-os/mouse-configurator
+Launchable:
+  desktop-id:
+  - org.pop_os.mouseconfigurator.desktop
+Provides:
+  binaries:
+  - mouse-configurator
+ContentRating:
+  oars-1.0: {}
+Icon:
+  cached:
+    - name: org.pop_os.mouseconfigurator.png
+      width: 64
+      height: 64
+    - name: org.pop_os.mouseconfigurator.png
+      width: 128
+      height: 128
