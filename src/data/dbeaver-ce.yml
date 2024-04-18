@@ -59,7 +59,7 @@ Screenshots:
 Releases:
 - version: 6.1.0
   type: stable
-  unix-timestamp: 201906091949
+  unix-timestamp: 1560131340
 Provides:
   mimetypes:
     - application/SQL
