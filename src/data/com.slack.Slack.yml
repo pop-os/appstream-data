@@ -20,11 +20,11 @@ Categories:
 Url:
   homepage: https://slack.com
 Icon:
-  remote:
-  - url: https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w64
+  cached:
+  - name: com.slack.Slack.png
     width: 64
     height: 64
-  - url: https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w128
+  - name: com.slack.Slack.png
     width: 128
     height: 128
 Screenshots:
